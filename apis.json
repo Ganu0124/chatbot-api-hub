@@ -1,0 +1,1960 @@
+{
+  "name": "ChatBot API Hub",
+  "count": 240,
+  "categories": [
+    "AI / LLM",
+    "Authentication",
+    "Communication",
+    "Cybersecurity",
+    "Database / Backend",
+    "Developer",
+    "E-commerce",
+    "Email",
+    "Email / Messaging",
+    "Entertainment",
+    "Finance",
+    "Healthcare",
+    "Images / Media",
+    "Maps / Location",
+    "News",
+    "OCR / Documents",
+    "Payments",
+    "Programming",
+    "RAG / Data",
+    "RAG / Research",
+    "Science / Space",
+    "Search / Web",
+    "Social / Bots",
+    "Speech / Audio",
+    "Sports",
+    "Translation / NLP",
+    "Travel",
+    "Utility",
+    "Vision",
+    "Weather",
+    "Weather / Environment"
+  ],
+  "source_reference": "https://github.com/public-apis/public-apis",
+  "apis": [
+    {
+      "category": "AI / LLM",
+      "name": "Groq",
+      "purpose": "Fast LLM inference",
+      "auth": "`API Key`",
+      "access": "https://console.groq.com/keys",
+      "docs": "https://console.groq.com/"
+    },
+    {
+      "category": "AI / LLM",
+      "name": "Hugging Face",
+      "purpose": "Open-source models and inference",
+      "auth": "`Token`",
+      "access": "https://huggingface.co/settings/tokens",
+      "docs": "https://huggingface.co/"
+    },
+    {
+      "category": "AI / LLM",
+      "name": "OpenRouter",
+      "purpose": "Access multiple LLM providers",
+      "auth": "`API Key`",
+      "access": "https://openrouter.ai/settings/keys",
+      "docs": "https://openrouter.ai/"
+    },
+    {
+      "category": "AI / LLM",
+      "name": "Mistral AI",
+      "purpose": "LLM and embeddings",
+      "auth": "`API Key`",
+      "access": "https://console.mistral.ai/api-keys/",
+      "docs": "https://console.mistral.ai/"
+    },
+    {
+      "category": "AI / LLM",
+      "name": "Cohere",
+      "purpose": "Chat, embeddings and RAG",
+      "auth": "`API Key`",
+      "access": "https://dashboard.cohere.com/api-keys",
+      "docs": "https://cohere.com/"
+    },
+    {
+      "category": "AI / LLM",
+      "name": "Together AI",
+      "purpose": "Open-source LLM inference",
+      "auth": "`API Key`",
+      "access": "https://api.together.ai/settings/api-keys",
+      "docs": "https://www.together.ai/"
+    },
+    {
+      "category": "AI / LLM",
+      "name": "Cerebras",
+      "purpose": "Fast AI inference",
+      "auth": "`API Key`",
+      "access": "https://cloud.cerebras.ai/",
+      "docs": "https://www.cerebras.ai/"
+    },
+    {
+      "category": "AI / LLM",
+      "name": "Replicate",
+      "purpose": "Run hosted AI models",
+      "auth": "`API Token`",
+      "access": "https://replicate.com/account/api-tokens",
+      "docs": "https://replicate.com/"
+    },
+    {
+      "category": "AI / LLM",
+      "name": "Ollama",
+      "purpose": "Run LLMs locally",
+      "auth": "`None`",
+      "access": "https://ollama.com/",
+      "docs": "https://ollama.com/"
+    },
+    {
+      "category": "AI / LLM",
+      "name": "LM Studio",
+      "purpose": "Local LLM server",
+      "auth": "`None`",
+      "access": "https://lmstudio.ai/",
+      "docs": "https://lmstudio.ai/"
+    },
+    {
+      "category": "Search / Web",
+      "name": "Tavily",
+      "purpose": "AI web search",
+      "auth": "`API Key`",
+      "access": "https://app.tavily.com/",
+      "docs": "https://tavily.com/"
+    },
+    {
+      "category": "Search / Web",
+      "name": "Brave Search",
+      "purpose": "Web search",
+      "auth": "`API Key`",
+      "access": "https://api-dashboard.search.brave.com/",
+      "docs": "https://brave.com/search/api/"
+    },
+    {
+      "category": "Search / Web",
+      "name": "Serper",
+      "purpose": "Google search data",
+      "auth": "`API Key`",
+      "access": "https://serper.dev/",
+      "docs": "https://serper.dev/"
+    },
+    {
+      "category": "Search / Web",
+      "name": "Wikipedia",
+      "purpose": "Knowledge retrieval",
+      "auth": "`None`",
+      "access": "https://www.mediawiki.org/wiki/API:Main_page",
+      "docs": "https://www.wikipedia.org/"
+    },
+    {
+      "category": "Search / Web",
+      "name": "GDELT",
+      "purpose": "Global news and events",
+      "auth": "`None`",
+      "access": "https://www.gdeltproject.org/",
+      "docs": "https://www.gdeltproject.org/"
+    },
+    {
+      "category": "Search / Web",
+      "name": "Internet Archive",
+      "purpose": "Web and digital archives",
+      "auth": "`None`",
+      "access": "https://archive.org/developers/",
+      "docs": "https://archive.org/"
+    },
+    {
+      "category": "Search / Web",
+      "name": "Hacker News",
+      "purpose": "Technology stories",
+      "auth": "`None`",
+      "access": "https://github.com/HackerNews/API",
+      "docs": "https://news.ycombinator.com/"
+    },
+    {
+      "category": "Search / Web",
+      "name": "Reddit",
+      "purpose": "Community content",
+      "auth": "`OAuth/API`",
+      "access": "https://www.reddit.com/prefs/apps",
+      "docs": "https://www.reddit.com/"
+    },
+    {
+      "category": "RAG / Research",
+      "name": "arXiv",
+      "purpose": "Research papers",
+      "auth": "`None`",
+      "access": "https://info.arxiv.org/help/api/index.html",
+      "docs": "https://arxiv.org/"
+    },
+    {
+      "category": "RAG / Research",
+      "name": "OpenAlex",
+      "purpose": "Academic research graph",
+      "auth": "`None`",
+      "access": "https://docs.openalex.org/",
+      "docs": "https://openalex.org/"
+    },
+    {
+      "category": "RAG / Research",
+      "name": "Crossref",
+      "purpose": "Publication metadata",
+      "auth": "`None`",
+      "access": "https://api.crossref.org/",
+      "docs": "https://www.crossref.org/"
+    },
+    {
+      "category": "RAG / Research",
+      "name": "Semantic Scholar",
+      "purpose": "Academic search",
+      "auth": "`API Key optional`",
+      "access": "https://www.semanticscholar.org/product/api",
+      "docs": "https://www.semanticscholar.org/"
+    },
+    {
+      "category": "RAG / Research",
+      "name": "PubMed",
+      "purpose": "Biomedical literature",
+      "auth": "`None`",
+      "access": "https://www.ncbi.nlm.nih.gov/books/NBK25501/",
+      "docs": "https://pubmed.ncbi.nlm.nih.gov/"
+    },
+    {
+      "category": "RAG / Research",
+      "name": "Open Library",
+      "purpose": "Books and metadata",
+      "auth": "`None`",
+      "access": "https://openlibrary.org/developers/api",
+      "docs": "https://openlibrary.org/"
+    },
+    {
+      "category": "RAG / Research",
+      "name": "Wikidata",
+      "purpose": "Knowledge graph",
+      "auth": "`None`",
+      "access": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+      "docs": "https://www.wikidata.org/"
+    },
+    {
+      "category": "Weather",
+      "name": "Open-Meteo",
+      "purpose": "Weather forecasts",
+      "auth": "`None`",
+      "access": "https://open-meteo.com/",
+      "docs": "https://open-meteo.com/"
+    },
+    {
+      "category": "Weather",
+      "name": "OpenWeather",
+      "purpose": "Weather data",
+      "auth": "`API Key`",
+      "access": "https://home.openweathermap.org/api_keys",
+      "docs": "https://openweathermap.org/"
+    },
+    {
+      "category": "Weather",
+      "name": "WeatherAPI",
+      "purpose": "Weather and forecasts",
+      "auth": "`API Key`",
+      "access": "https://www.weatherapi.com/signup.aspx",
+      "docs": "https://www.weatherapi.com/"
+    },
+    {
+      "category": "Weather",
+      "name": "Weatherbit",
+      "purpose": "Weather data",
+      "auth": "`API Key`",
+      "access": "https://www.weatherbit.io/account/create",
+      "docs": "https://www.weatherbit.io/"
+    },
+    {
+      "category": "Weather",
+      "name": "OpenAQ",
+      "purpose": "Air quality",
+      "auth": "`None`",
+      "access": "https://docs.openaq.org/",
+      "docs": "https://openaq.org/"
+    },
+    {
+      "category": "Weather",
+      "name": "AQICN",
+      "purpose": "Air quality",
+      "auth": "`API Key`",
+      "access": "https://aqicn.org/data-platform/token/",
+      "docs": "https://aqicn.org/"
+    },
+    {
+      "category": "Maps / Location",
+      "name": "OpenStreetMap",
+      "purpose": "Open map data",
+      "auth": "`None`",
+      "access": "https://www.openstreetmap.org/",
+      "docs": "https://www.openstreetmap.org/"
+    },
+    {
+      "category": "Maps / Location",
+      "name": "Nominatim",
+      "purpose": "Geocoding",
+      "auth": "`None`",
+      "access": "https://nominatim.org/",
+      "docs": "https://nominatim.org/"
+    },
+    {
+      "category": "Maps / Location",
+      "name": "Mapbox",
+      "purpose": "Maps and navigation",
+      "auth": "`Access Token`",
+      "access": "https://account.mapbox.com/access-tokens/",
+      "docs": "https://www.mapbox.com/"
+    },
+    {
+      "category": "Maps / Location",
+      "name": "OpenRouteService",
+      "purpose": "Routing and directions",
+      "auth": "`API Key`",
+      "access": "https://openrouteservice.org/dev/",
+      "docs": "https://openrouteservice.org/"
+    },
+    {
+      "category": "Maps / Location",
+      "name": "Geoapify",
+      "purpose": "Geocoding and places",
+      "auth": "`API Key`",
+      "access": "https://myprojects.geoapify.com/",
+      "docs": "https://www.geoapify.com/"
+    },
+    {
+      "category": "Maps / Location",
+      "name": "GeoNames",
+      "purpose": "Geographic data",
+      "auth": "`Username`",
+      "access": "https://www.geonames.org/login",
+      "docs": "https://www.geonames.org/"
+    },
+    {
+      "category": "Maps / Location",
+      "name": "IPinfo",
+      "purpose": "IP geolocation",
+      "auth": "`Token`",
+      "access": "https://ipinfo.io/signup",
+      "docs": "https://ipinfo.io/"
+    },
+    {
+      "category": "Maps / Location",
+      "name": "IP-API",
+      "purpose": "IP geolocation",
+      "auth": "`None`",
+      "access": "https://ip-api.com/",
+      "docs": "https://ip-api.com/"
+    },
+    {
+      "category": "News",
+      "name": "NewsAPI",
+      "purpose": "News search",
+      "auth": "`API Key`",
+      "access": "https://newsapi.org/register",
+      "docs": "https://newsapi.org/"
+    },
+    {
+      "category": "News",
+      "name": "GNews",
+      "purpose": "News search",
+      "auth": "`API Key`",
+      "access": "https://gnews.io/",
+      "docs": "https://gnews.io/"
+    },
+    {
+      "category": "News",
+      "name": "TheNewsAPI",
+      "purpose": "News feeds",
+      "auth": "`API Key`",
+      "access": "https://www.thenewsapi.com/",
+      "docs": "https://www.thenewsapi.com/"
+    },
+    {
+      "category": "News",
+      "name": "Guardian API",
+      "purpose": "News articles",
+      "auth": "`API Key`",
+      "access": "https://bonobo.capi.guardianapis.com/register",
+      "docs": "https://www.theguardian.com/"
+    },
+    {
+      "category": "News",
+      "name": "New York Times API",
+      "purpose": "News and archives",
+      "auth": "`API Key`",
+      "access": "https://developer.nytimes.com/get-started",
+      "docs": "https://developer.nytimes.com/"
+    },
+    {
+      "category": "News",
+      "name": "Currents API",
+      "purpose": "News search",
+      "auth": "`API Key`",
+      "access": "https://currentsapi.services/en/register",
+      "docs": "https://currentsapi.services/"
+    },
+    {
+      "category": "Finance",
+      "name": "Alpha Vantage",
+      "purpose": "Stocks and forex",
+      "auth": "`API Key`",
+      "access": "https://www.alphavantage.co/support/#api-key",
+      "docs": "https://www.alphavantage.co/"
+    },
+    {
+      "category": "Finance",
+      "name": "Finnhub",
+      "purpose": "Market data",
+      "auth": "`API Key`",
+      "access": "https://finnhub.io/dashboard",
+      "docs": "https://finnhub.io/"
+    },
+    {
+      "category": "Finance",
+      "name": "CoinGecko",
+      "purpose": "Crypto data",
+      "auth": "`API Key`",
+      "access": "https://www.coingecko.com/en/api",
+      "docs": "https://www.coingecko.com/"
+    },
+    {
+      "category": "Finance",
+      "name": "CoinCap",
+      "purpose": "Crypto market data",
+      "auth": "`API Key optional`",
+      "access": "https://pro.coincap.io/",
+      "docs": "https://coincap.io/"
+    },
+    {
+      "category": "Finance",
+      "name": "Frankfurter",
+      "purpose": "Currency exchange",
+      "auth": "`None`",
+      "access": "https://www.frankfurter.app/",
+      "docs": "https://www.frankfurter.app/"
+    },
+    {
+      "category": "Finance",
+      "name": "FRED",
+      "purpose": "Economic indicators",
+      "auth": "`API Key`",
+      "access": "https://fred.stlouisfed.org/docs/api/api_key.html",
+      "docs": "https://fred.stlouisfed.org/"
+    },
+    {
+      "category": "Finance",
+      "name": "Twelve Data",
+      "purpose": "Stocks, forex and crypto",
+      "auth": "`API Key`",
+      "access": "https://twelvedata.com/pricing",
+      "docs": "https://twelvedata.com/"
+    },
+    {
+      "category": "Finance",
+      "name": "World Bank",
+      "purpose": "Economic and development data",
+      "auth": "`None`",
+      "access": "https://datahelpdesk.worldbank.org/knowledgebase/articles/889392-about-the-indicators-api-documentation",
+      "docs": "https://www.worldbank.org/"
+    },
+    {
+      "category": "Images / Media",
+      "name": "Pexels",
+      "purpose": "Stock image search",
+      "auth": "`API Key`",
+      "access": "https://www.pexels.com/api/",
+      "docs": "https://www.pexels.com/"
+    },
+    {
+      "category": "Images / Media",
+      "name": "Unsplash",
+      "purpose": "Image search",
+      "auth": "`Access Key`",
+      "access": "https://unsplash.com/developers",
+      "docs": "https://unsplash.com/"
+    },
+    {
+      "category": "Images / Media",
+      "name": "Pixabay",
+      "purpose": "Images and videos",
+      "auth": "`API Key`",
+      "access": "https://pixabay.com/api/docs/",
+      "docs": "https://pixabay.com/"
+    },
+    {
+      "category": "Images / Media",
+      "name": "Giphy",
+      "purpose": "GIF search",
+      "auth": "`API Key`",
+      "access": "https://developers.giphy.com/dashboard/",
+      "docs": "https://giphy.com/"
+    },
+    {
+      "category": "Images / Media",
+      "name": "Tenor",
+      "purpose": "GIF search",
+      "auth": "`API Key`",
+      "access": "https://developers.google.com/tenor",
+      "docs": "https://tenor.com/"
+    },
+    {
+      "category": "Images / Media",
+      "name": "DiceBear",
+      "purpose": "Avatar generation",
+      "auth": "`None`",
+      "access": "https://www.dicebear.com/",
+      "docs": "https://www.dicebear.com/"
+    },
+    {
+      "category": "Images / Media",
+      "name": "Lorem Picsum",
+      "purpose": "Placeholder images",
+      "auth": "`None`",
+      "access": "https://picsum.photos/",
+      "docs": "https://picsum.photos/"
+    },
+    {
+      "category": "Speech / Audio",
+      "name": "Deepgram",
+      "purpose": "Speech-to-text and audio AI",
+      "auth": "`API Key`",
+      "access": "https://console.deepgram.com/",
+      "docs": "https://deepgram.com/"
+    },
+    {
+      "category": "Speech / Audio",
+      "name": "AssemblyAI",
+      "purpose": "Speech-to-text",
+      "auth": "`API Key`",
+      "access": "https://www.assemblyai.com/dashboard/",
+      "docs": "https://www.assemblyai.com/"
+    },
+    {
+      "category": "Speech / Audio",
+      "name": "ElevenLabs",
+      "purpose": "Text-to-speech",
+      "auth": "`API Key`",
+      "access": "https://elevenlabs.io/app/settings/api-keys",
+      "docs": "https://elevenlabs.io/"
+    },
+    {
+      "category": "Speech / Audio",
+      "name": "Whisper",
+      "purpose": "Speech recognition",
+      "auth": "`Local/Open-source`",
+      "access": "https://github.com/openai/whisper",
+      "docs": "https://github.com/openai/whisper"
+    },
+    {
+      "category": "Speech / Audio",
+      "name": "Piper TTS",
+      "purpose": "Local text-to-speech",
+      "auth": "`None`",
+      "access": "https://github.com/rhasspy/piper",
+      "docs": "https://github.com/rhasspy/piper"
+    },
+    {
+      "category": "Translation / NLP",
+      "name": "LibreTranslate",
+      "purpose": "Machine translation",
+      "auth": "`API Key optional`",
+      "access": "https://libretranslate.com/",
+      "docs": "https://libretranslate.com/"
+    },
+    {
+      "category": "Translation / NLP",
+      "name": "DeepL",
+      "purpose": "Translation",
+      "auth": "`API Key`",
+      "access": "https://www.deepl.com/pro-api",
+      "docs": "https://www.deepl.com/"
+    },
+    {
+      "category": "Translation / NLP",
+      "name": "LanguageTool",
+      "purpose": "Grammar checking",
+      "auth": "`API Key optional`",
+      "access": "https://languagetool.org/http-api/",
+      "docs": "https://languagetool.org/"
+    },
+    {
+      "category": "Translation / NLP",
+      "name": "Datamuse",
+      "purpose": "Word relationships",
+      "auth": "`None`",
+      "access": "https://www.datamuse.com/api/",
+      "docs": "https://www.datamuse.com/"
+    },
+    {
+      "category": "Translation / NLP",
+      "name": "Free Dictionary",
+      "purpose": "Definitions",
+      "auth": "`None`",
+      "access": "https://dictionaryapi.dev/",
+      "docs": "https://dictionaryapi.dev/"
+    },
+    {
+      "category": "Cybersecurity",
+      "name": "VirusTotal",
+      "purpose": "File and URL intelligence",
+      "auth": "`API Key`",
+      "access": "https://www.virustotal.com/gui/user/apikey",
+      "docs": "https://www.virustotal.com/"
+    },
+    {
+      "category": "Cybersecurity",
+      "name": "AbuseIPDB",
+      "purpose": "IP reputation",
+      "auth": "`API Key`",
+      "access": "https://www.abuseipdb.com/account/api",
+      "docs": "https://www.abuseipdb.com/"
+    },
+    {
+      "category": "Cybersecurity",
+      "name": "Shodan",
+      "purpose": "Internet intelligence",
+      "auth": "`API Key`",
+      "access": "https://account.shodan.io/",
+      "docs": "https://www.shodan.io/"
+    },
+    {
+      "category": "Cybersecurity",
+      "name": "URLScan",
+      "purpose": "URL analysis",
+      "auth": "`API Key`",
+      "access": "https://urlscan.io/user/signup/",
+      "docs": "https://urlscan.io/"
+    },
+    {
+      "category": "Cybersecurity",
+      "name": "NVD",
+      "purpose": "Vulnerability database",
+      "auth": "`API Key optional`",
+      "access": "https://nvd.nist.gov/developers/request-an-api-key",
+      "docs": "https://nvd.nist.gov/"
+    },
+    {
+      "category": "Cybersecurity",
+      "name": "CISA KEV",
+      "purpose": "Known exploited vulnerabilities",
+      "auth": "`None`",
+      "access": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "docs": "https://www.cisa.gov/"
+    },
+    {
+      "category": "Cybersecurity",
+      "name": "URLhaus",
+      "purpose": "Malicious URL intelligence",
+      "auth": "`None`",
+      "access": "https://urlhaus.abuse.ch/api/",
+      "docs": "https://urlhaus.abuse.ch/"
+    },
+    {
+      "category": "Healthcare",
+      "name": "OpenFDA",
+      "purpose": "FDA public data",
+      "auth": "`None/API Key`",
+      "access": "https://open.fda.gov/apis/",
+      "docs": "https://open.fda.gov/"
+    },
+    {
+      "category": "Healthcare",
+      "name": "ClinicalTrials.gov",
+      "purpose": "Clinical trials",
+      "auth": "`None`",
+      "access": "https://clinicaltrials.gov/data-api/api",
+      "docs": "https://clinicaltrials.gov/"
+    },
+    {
+      "category": "Healthcare",
+      "name": "RxNorm",
+      "purpose": "Medication terminology",
+      "auth": "`None`",
+      "access": "https://lhncbc.nlm.nih.gov/RxNav/APIs/",
+      "docs": "https://www.nlm.nih.gov/"
+    },
+    {
+      "category": "Healthcare",
+      "name": "NLM APIs",
+      "purpose": "Biomedical data",
+      "auth": "`None`",
+      "access": "https://www.nlm.nih.gov/databases/",
+      "docs": "https://www.nlm.nih.gov/"
+    },
+    {
+      "category": "Travel",
+      "name": "Amadeus",
+      "purpose": "Flights and travel",
+      "auth": "`API Key`",
+      "access": "https://developers.amadeus.com/register",
+      "docs": "https://developers.amadeus.com/"
+    },
+    {
+      "category": "Travel",
+      "name": "AviationStack",
+      "purpose": "Flight data",
+      "auth": "`API Key`",
+      "access": "https://aviationstack.com/signup/free",
+      "docs": "https://aviationstack.com/"
+    },
+    {
+      "category": "Travel",
+      "name": "OpenSky Network",
+      "purpose": "Aircraft tracking",
+      "auth": "`OAuth/None`",
+      "access": "https://opensky-network.org/",
+      "docs": "https://opensky-network.org/"
+    },
+    {
+      "category": "Travel",
+      "name": "REST Countries",
+      "purpose": "Country information",
+      "auth": "`None`",
+      "access": "https://restcountries.com/",
+      "docs": "https://restcountries.com/"
+    },
+    {
+      "category": "Travel",
+      "name": "OpenTripMap",
+      "purpose": "Tourist attractions",
+      "auth": "`API Key`",
+      "access": "https://opentripmap.io/product",
+      "docs": "https://opentripmap.io/"
+    },
+    {
+      "category": "Sports",
+      "name": "TheSportsDB",
+      "purpose": "Sports data",
+      "auth": "`API Key optional`",
+      "access": "https://www.thesportsdb.com/",
+      "docs": "https://www.thesportsdb.com/"
+    },
+    {
+      "category": "Sports",
+      "name": "API-Football",
+      "purpose": "Football data",
+      "auth": "`API Key`",
+      "access": "https://dashboard.api-football.com/",
+      "docs": "https://www.api-football.com/"
+    },
+    {
+      "category": "Sports",
+      "name": "balldontlie",
+      "purpose": "Basketball data",
+      "auth": "`API Key`",
+      "access": "https://www.balldontlie.io/",
+      "docs": "https://www.balldontlie.io/"
+    },
+    {
+      "category": "Sports",
+      "name": "Jolpica F1",
+      "purpose": "Formula 1 data",
+      "auth": "`None`",
+      "access": "https://api.jolpi.ca/ergast/f1/",
+      "docs": "https://jolpi.ca/"
+    },
+    {
+      "category": "Communication",
+      "name": "Telegram Bot API",
+      "purpose": "Telegram chatbots",
+      "auth": "`Bot Token`",
+      "access": "https://t.me/BotFather",
+      "docs": "https://core.telegram.org/bots/api"
+    },
+    {
+      "category": "Communication",
+      "name": "Discord",
+      "purpose": "Discord bots",
+      "auth": "`Bot Token`",
+      "access": "https://discord.com/developers/applications",
+      "docs": "https://discord.com/developers/docs/"
+    },
+    {
+      "category": "Communication",
+      "name": "Slack",
+      "purpose": "Workspace bots",
+      "auth": "`OAuth`",
+      "access": "https://api.slack.com/apps",
+      "docs": "https://api.slack.com/"
+    },
+    {
+      "category": "Communication",
+      "name": "Twilio",
+      "purpose": "SMS and communication",
+      "auth": "`API Key`",
+      "access": "https://console.twilio.com/",
+      "docs": "https://www.twilio.com/"
+    },
+    {
+      "category": "Communication",
+      "name": "WhatsApp Cloud API",
+      "purpose": "WhatsApp messaging",
+      "auth": "`Token`",
+      "access": "https://developers.facebook.com/apps/",
+      "docs": "https://developers.facebook.com/docs/whatsapp/cloud-api/"
+    },
+    {
+      "category": "Email",
+      "name": "Resend",
+      "purpose": "Transactional email",
+      "auth": "`API Key`",
+      "access": "https://resend.com/api-keys",
+      "docs": "https://resend.com/"
+    },
+    {
+      "category": "Email",
+      "name": "Brevo",
+      "purpose": "Email and messaging",
+      "auth": "`API Key`",
+      "access": "https://app.brevo.com/settings/keys/api",
+      "docs": "https://www.brevo.com/"
+    },
+    {
+      "category": "Email",
+      "name": "SendGrid",
+      "purpose": "Transactional email",
+      "auth": "`API Key`",
+      "access": "https://app.sendgrid.com/guide/integrate/langs/api-keys",
+      "docs": "https://sendgrid.com/"
+    },
+    {
+      "category": "Email",
+      "name": "Mailgun",
+      "purpose": "Email API",
+      "auth": "`API Key`",
+      "access": "https://app.mailgun.com/",
+      "docs": "https://www.mailgun.com/"
+    },
+    {
+      "category": "Payments",
+      "name": "Razorpay",
+      "purpose": "Indian payments",
+      "auth": "`API Key`",
+      "access": "https://dashboard.razorpay.com/app/keys",
+      "docs": "https://razorpay.com/"
+    },
+    {
+      "category": "Payments",
+      "name": "Stripe",
+      "purpose": "Payments and billing",
+      "auth": "`API Key`",
+      "access": "https://dashboard.stripe.com/apikeys",
+      "docs": "https://stripe.com/"
+    },
+    {
+      "category": "Payments",
+      "name": "Cashfree",
+      "purpose": "Indian payments",
+      "auth": "`API Key`",
+      "access": "https://merchant.cashfree.com/merchants/api-keys",
+      "docs": "https://www.cashfree.com/"
+    },
+    {
+      "category": "Payments",
+      "name": "PayPal",
+      "purpose": "Payments",
+      "auth": "`Client ID/Secret`",
+      "access": "https://developer.paypal.com/dashboard/",
+      "docs": "https://developer.paypal.com/"
+    },
+    {
+      "category": "Database / Backend",
+      "name": "Supabase",
+      "purpose": "PostgreSQL, auth and storage",
+      "auth": "`API Key`",
+      "access": "https://supabase.com/dashboard",
+      "docs": "https://supabase.com/"
+    },
+    {
+      "category": "Database / Backend",
+      "name": "Firebase",
+      "purpose": "Database, auth and storage",
+      "auth": "`Config/API`",
+      "access": "https://console.firebase.google.com/",
+      "docs": "https://firebase.google.com/"
+    },
+    {
+      "category": "Database / Backend",
+      "name": "Appwrite",
+      "purpose": "Backend services",
+      "auth": "`API Key`",
+      "access": "https://cloud.appwrite.io/",
+      "docs": "https://appwrite.io/"
+    },
+    {
+      "category": "Database / Backend",
+      "name": "Convex",
+      "purpose": "Backend database",
+      "auth": "`Project credentials`",
+      "access": "https://dashboard.convex.dev/",
+      "docs": "https://www.convex.dev/"
+    },
+    {
+      "category": "Developer",
+      "name": "GitHub",
+      "purpose": "Repositories and developer data",
+      "auth": "`Token`",
+      "access": "https://github.com/settings/tokens",
+      "docs": "https://github.com/"
+    },
+    {
+      "category": "Developer",
+      "name": "GitLab",
+      "purpose": "Repositories and CI/CD",
+      "auth": "`Token`",
+      "access": "https://gitlab.com/-/user_settings/personal_access_tokens",
+      "docs": "https://gitlab.com/"
+    },
+    {
+      "category": "Developer",
+      "name": "npm Registry",
+      "purpose": "Package metadata",
+      "auth": "`None`",
+      "access": "https://registry.npmjs.org/",
+      "docs": "https://www.npmjs.com/"
+    },
+    {
+      "category": "Developer",
+      "name": "PyPI",
+      "purpose": "Python package metadata",
+      "auth": "`None`",
+      "access": "https://pypi.org/",
+      "docs": "https://pypi.org/"
+    },
+    {
+      "category": "Developer",
+      "name": "JSONPlaceholder",
+      "purpose": "Fake REST data",
+      "auth": "`None`",
+      "access": "https://jsonplaceholder.typicode.com/",
+      "docs": "https://jsonplaceholder.typicode.com/"
+    },
+    {
+      "category": "Developer",
+      "name": "DummyJSON",
+      "purpose": "Fake REST data",
+      "auth": "`None`",
+      "access": "https://dummyjson.com/",
+      "docs": "https://dummyjson.com/"
+    },
+    {
+      "category": "Developer",
+      "name": "httpbin",
+      "purpose": "HTTP testing",
+      "auth": "`None`",
+      "access": "https://httpbin.org/",
+      "docs": "https://httpbin.org/"
+    },
+    {
+      "category": "Developer",
+      "name": "Random User",
+      "purpose": "Random user profiles",
+      "auth": "`None`",
+      "access": "https://randomuser.me/",
+      "docs": "https://randomuser.me/"
+    },
+    {
+      "category": "Science / Space",
+      "name": "NASA APIs",
+      "purpose": "Space and Earth data",
+      "auth": "`API Key`",
+      "access": "https://api.nasa.gov/",
+      "docs": "https://api.nasa.gov/"
+    },
+    {
+      "category": "Science / Space",
+      "name": "SpaceX API",
+      "purpose": "Launch and rocket data",
+      "auth": "`None`",
+      "access": "https://github.com/r-spacex/SpaceX-API",
+      "docs": "https://www.spacex.com/"
+    },
+    {
+      "category": "Science / Space",
+      "name": "USGS",
+      "purpose": "Earthquake and Earth data",
+      "auth": "`None`",
+      "access": "https://earthquake.usgs.gov/fdsnws/event/1/",
+      "docs": "https://www.usgs.gov/"
+    },
+    {
+      "category": "Science / Space",
+      "name": "GBIF",
+      "purpose": "Biodiversity data",
+      "auth": "`None`",
+      "access": "https://www.gbif.org/developer/summary",
+      "docs": "https://www.gbif.org/"
+    },
+    {
+      "category": "Entertainment",
+      "name": "TMDB",
+      "purpose": "Movies and TV",
+      "auth": "`API Key`",
+      "access": "https://www.themoviedb.org/settings/api",
+      "docs": "https://www.themoviedb.org/"
+    },
+    {
+      "category": "Entertainment",
+      "name": "OMDb",
+      "purpose": "Movie information",
+      "auth": "`API Key`",
+      "access": "https://www.omdbapi.com/apikey.aspx",
+      "docs": "https://www.omdbapi.com/"
+    },
+    {
+      "category": "Entertainment",
+      "name": "TVMaze",
+      "purpose": "TV show data",
+      "auth": "`None`",
+      "access": "https://www.tvmaze.com/api",
+      "docs": "https://www.tvmaze.com/"
+    },
+    {
+      "category": "Entertainment",
+      "name": "Spotify",
+      "purpose": "Music data",
+      "auth": "`OAuth`",
+      "access": "https://developer.spotify.com/dashboard",
+      "docs": "https://developer.spotify.com/"
+    },
+    {
+      "category": "Utility",
+      "name": "IPify",
+      "purpose": "Public IP address",
+      "auth": "`None`",
+      "access": "https://www.ipify.org/",
+      "docs": "https://www.ipify.org/"
+    },
+    {
+      "category": "Utility",
+      "name": "QR Server",
+      "purpose": "QR code generation",
+      "auth": "`None`",
+      "access": "https://goqr.me/api/",
+      "docs": "https://goqr.me/api/"
+    },
+    {
+      "category": "Utility",
+      "name": "Advice Slip",
+      "purpose": "Advice text",
+      "auth": "`None`",
+      "access": "https://api.adviceslip.com/",
+      "docs": "https://api.adviceslip.com/"
+    },
+    {
+      "category": "Utility",
+      "name": "Numbers API",
+      "purpose": "Number facts",
+      "auth": "`None`",
+      "access": "http://numbersapi.com/",
+      "docs": "http://numbersapi.com/"
+    },
+    {
+      "category": "Utility",
+      "name": "Agify",
+      "purpose": "Age prediction",
+      "auth": "`None`",
+      "access": "https://agify.io/",
+      "docs": "https://agify.io/"
+    },
+    {
+      "category": "Utility",
+      "name": "Genderize",
+      "purpose": "Gender prediction",
+      "auth": "`None`",
+      "access": "https://genderize.io/",
+      "docs": "https://genderize.io/"
+    },
+    {
+      "category": "Utility",
+      "name": "Nationalize",
+      "purpose": "Nationality prediction",
+      "auth": "`None`",
+      "access": "https://nationalize.io/",
+      "docs": "https://nationalize.io/"
+    },
+    {
+      "category": "AI / LLM",
+      "name": "Anthropic",
+      "purpose": "Claude models and AI assistants",
+      "auth": "API Key",
+      "access": "https://console.anthropic.com/",
+      "docs": "https://docs.anthropic.com/"
+    },
+    {
+      "category": "AI / LLM",
+      "name": "AI21 Labs",
+      "purpose": "Language models and text APIs",
+      "auth": "API Key",
+      "access": "https://studio.ai21.com/account/api-key",
+      "docs": "https://docs.ai21.com/"
+    },
+    {
+      "category": "AI / LLM",
+      "name": "Fireworks AI",
+      "purpose": "Fast generative AI inference",
+      "auth": "API Key",
+      "access": "https://fireworks.ai/account/api-keys",
+      "docs": "https://docs.fireworks.ai/"
+    },
+    {
+      "category": "AI / LLM",
+      "name": "DeepInfra",
+      "purpose": "Hosted open-source model inference",
+      "auth": "API Key",
+      "access": "https://deepinfra.com/dash/api_keys",
+      "docs": "https://deepinfra.com/"
+    },
+    {
+      "category": "AI / LLM",
+      "name": "SambaNova Cloud",
+      "purpose": "Generative AI inference",
+      "auth": "API Key",
+      "access": "https://cloud.sambanova.ai/apis",
+      "docs": "https://docs.sambanova.ai/"
+    },
+    {
+      "category": "AI / LLM",
+      "name": "AI Horde",
+      "purpose": "Community-powered image and text generation",
+      "auth": "API Key optional",
+      "access": "https://aihorde.net/",
+      "docs": "https://aihorde.net/"
+    },
+    {
+      "category": "AI / LLM",
+      "name": "Perplexity",
+      "purpose": "AI search and language models",
+      "auth": "API Key",
+      "access": "https://www.perplexity.ai/settings/api",
+      "docs": "https://docs.perplexity.ai/"
+    },
+    {
+      "category": "AI / LLM",
+      "name": "GroqCloud Models",
+      "purpose": "Open models on Groq infrastructure",
+      "auth": "API Key",
+      "access": "https://console.groq.com/keys",
+      "docs": "https://console.groq.com/docs/"
+    },
+    {
+      "category": "AI / LLM",
+      "name": "NVIDIA Build",
+      "purpose": "Generative AI model APIs",
+      "auth": "API Key",
+      "access": "https://build.nvidia.com/",
+      "docs": "https://docs.api.nvidia.com/"
+    },
+    {
+      "category": "AI / LLM",
+      "name": "Modal",
+      "purpose": "Run serverless AI workloads",
+      "auth": "API Key",
+      "access": "https://modal.com/settings",
+      "docs": "https://modal.com/docs/"
+    },
+    {
+      "category": "Search / Web",
+      "name": "Exa",
+      "purpose": "Semantic web search for AI agents",
+      "auth": "API Key",
+      "access": "https://dashboard.exa.ai/api-keys",
+      "docs": "https://docs.exa.ai/"
+    },
+    {
+      "category": "Search / Web",
+      "name": "Jina Reader",
+      "purpose": "Web page to LLM-ready text",
+      "auth": "API Key",
+      "access": "https://jina.ai/reader",
+      "docs": "https://jina.ai/reader"
+    },
+    {
+      "category": "Search / Web",
+      "name": "Jina Search",
+      "purpose": "Search API for agents",
+      "auth": "API Key",
+      "access": "https://jina.ai/reader",
+      "docs": "https://jina.ai/reader"
+    },
+    {
+      "category": "Search / Web",
+      "name": "SearXNG",
+      "purpose": "Open metasearch engine",
+      "auth": "None",
+      "access": "https://docs.searxng.org/",
+      "docs": "https://docs.searxng.org/"
+    },
+    {
+      "category": "Search / Web",
+      "name": "DuckDuckGo Instant Answer",
+      "purpose": "Search answers",
+      "auth": "None",
+      "access": "https://duckduckgo.com/api",
+      "docs": "https://duckduckgo.com/api"
+    },
+    {
+      "category": "Search / Web",
+      "name": "Google Custom Search",
+      "purpose": "Programmable web search",
+      "auth": "API Key",
+      "access": "https://console.cloud.google.com/apis/credentials",
+      "docs": "https://developers.google.com/custom-search/v1/"
+    },
+    {
+      "category": "Search / Web",
+      "name": "Common Crawl",
+      "purpose": "Web crawl index",
+      "auth": "None",
+      "access": "https://index.commoncrawl.org/",
+      "docs": "https://commoncrawl.org/"
+    },
+    {
+      "category": "Search / Web",
+      "name": "Mediastack",
+      "purpose": "News and media data",
+      "auth": "API Key",
+      "access": "https://mediastack.com/signup",
+      "docs": "https://mediastack.com/documentation"
+    },
+    {
+      "category": "Search / Web",
+      "name": "SerpApi",
+      "purpose": "Search engine results",
+      "auth": "API Key",
+      "access": "https://serpapi.com/manage-api-key",
+      "docs": "https://serpapi.com/"
+    },
+    {
+      "category": "RAG / Data",
+      "name": "Pinecone",
+      "purpose": "Vector database for RAG",
+      "auth": "API Key",
+      "access": "https://app.pinecone.io/",
+      "docs": "https://docs.pinecone.io/"
+    },
+    {
+      "category": "RAG / Data",
+      "name": "Qdrant Cloud",
+      "purpose": "Vector search database",
+      "auth": "API Key",
+      "access": "https://cloud.qdrant.io/",
+      "docs": "https://qdrant.tech/documentation/"
+    },
+    {
+      "category": "RAG / Data",
+      "name": "Weaviate Cloud",
+      "purpose": "Vector database",
+      "auth": "API Key",
+      "access": "https://console.weaviate.cloud/",
+      "docs": "https://weaviate.io/developers/weaviate"
+    },
+    {
+      "category": "RAG / Data",
+      "name": "Milvus",
+      "purpose": "Vector database",
+      "auth": "None / Token",
+      "access": "https://zilliz.com/cloud",
+      "docs": "https://milvus.io/docs"
+    },
+    {
+      "category": "RAG / Data",
+      "name": "Chroma",
+      "purpose": "Open-source vector database",
+      "auth": "None",
+      "access": "https://www.trychroma.com/",
+      "docs": "https://docs.trychroma.com/"
+    },
+    {
+      "category": "RAG / Data",
+      "name": "LanceDB",
+      "purpose": "Embedded vector database",
+      "auth": "None",
+      "access": "https://lancedb.com/",
+      "docs": "https://lancedb.com/docs"
+    },
+    {
+      "category": "RAG / Data",
+      "name": "Supabase Vector",
+      "purpose": "Postgres vector search",
+      "auth": "Project Key",
+      "access": "https://supabase.com/dashboard",
+      "docs": "https://supabase.com/docs/guides/ai"
+    },
+    {
+      "category": "RAG / Data",
+      "name": "Neo4j Aura",
+      "purpose": "Graph database for knowledge graphs",
+      "auth": "Login",
+      "access": "https://console.neo4j.io/",
+      "docs": "https://neo4j.com/docs/"
+    },
+    {
+      "category": "RAG / Data",
+      "name": "Unstructured",
+      "purpose": "Document processing for RAG",
+      "auth": "API Key",
+      "access": "https://app.unstructured.io/",
+      "docs": "https://docs.unstructured.io/"
+    },
+    {
+      "category": "RAG / Data",
+      "name": "Firecrawl",
+      "purpose": "Web scraping for AI agents",
+      "auth": "API Key",
+      "access": "https://www.firecrawl.dev/app/api-keys",
+      "docs": "https://docs.firecrawl.dev/"
+    },
+    {
+      "category": "OCR / Documents",
+      "name": "OCR.Space",
+      "purpose": "OCR API",
+      "auth": "API Key",
+      "access": "https://ocr.space/ocrapi",
+      "docs": "https://ocr.space/ocrapi"
+    },
+    {
+      "category": "OCR / Documents",
+      "name": "Nanonets",
+      "purpose": "OCR and document processing",
+      "auth": "API Key",
+      "access": "https://app.nanonets.com/",
+      "docs": "https://nanonets.com/"
+    },
+    {
+      "category": "OCR / Documents",
+      "name": "Mindee",
+      "purpose": "Document parsing",
+      "auth": "API Key",
+      "access": "https://platform.mindee.com/",
+      "docs": "https://developers.mindee.com/"
+    },
+    {
+      "category": "OCR / Documents",
+      "name": "Cloudmersive",
+      "purpose": "Document and OCR APIs",
+      "auth": "API Key",
+      "access": "https://account.cloudmersive.com/",
+      "docs": "https://cloudmersive.com/"
+    },
+    {
+      "category": "OCR / Documents",
+      "name": "PDF.co",
+      "purpose": "PDF processing",
+      "auth": "API Key",
+      "access": "https://app.pdf.co/",
+      "docs": "https://docs.pdf.co/"
+    },
+    {
+      "category": "OCR / Documents",
+      "name": "ConvertAPI",
+      "purpose": "Document conversion",
+      "auth": "API Key",
+      "access": "https://www.convertapi.com/a/users/signup",
+      "docs": "https://www.convertapi.com/"
+    },
+    {
+      "category": "Speech / Audio",
+      "name": "Google Speech-to-Text",
+      "purpose": "Speech recognition",
+      "auth": "API Key",
+      "access": "https://console.cloud.google.com/apis/credentials",
+      "docs": "https://cloud.google.com/speech-to-text/docs"
+    },
+    {
+      "category": "Speech / Audio",
+      "name": "Azure Speech",
+      "purpose": "Speech and voice services",
+      "auth": "API Key",
+      "access": "https://portal.azure.com/",
+      "docs": "https://learn.microsoft.com/azure/ai-services/speech-service/"
+    },
+    {
+      "category": "Speech / Audio",
+      "name": "PlayHT",
+      "purpose": "Text-to-speech",
+      "auth": "API Key",
+      "access": "https://play.ht/app/api-access",
+      "docs": "https://docs.play.ht/"
+    },
+    {
+      "category": "Speech / Audio",
+      "name": "Cartesia",
+      "purpose": "Low-latency voice AI",
+      "auth": "API Key",
+      "access": "https://play.cartesia.ai/",
+      "docs": "https://docs.cartesia.ai/"
+    },
+    {
+      "category": "Speech / Audio",
+      "name": "Picovoice",
+      "purpose": "On-device voice AI",
+      "auth": "Access Key",
+      "access": "https://console.picovoice.ai/",
+      "docs": "https://picovoice.ai/docs/"
+    },
+    {
+      "category": "Vision",
+      "name": "Roboflow",
+      "purpose": "Computer vision inference and datasets",
+      "auth": "API Key",
+      "access": "https://app.roboflow.com/",
+      "docs": "https://docs.roboflow.com/"
+    },
+    {
+      "category": "Vision",
+      "name": "Clarifai",
+      "purpose": "Vision and AI inference",
+      "auth": "API Key",
+      "access": "https://clarifai.com/settings/security",
+      "docs": "https://docs.clarifai.com/"
+    },
+    {
+      "category": "Vision",
+      "name": "Hugging Face Inference",
+      "purpose": "Computer vision and multimodal models",
+      "auth": "Token",
+      "access": "https://huggingface.co/settings/tokens",
+      "docs": "https://huggingface.co/inference-api"
+    },
+    {
+      "category": "Vision",
+      "name": "Google Vision",
+      "purpose": "Image understanding",
+      "auth": "API Key",
+      "access": "https://console.cloud.google.com/apis/credentials",
+      "docs": "https://cloud.google.com/vision/docs"
+    },
+    {
+      "category": "Vision",
+      "name": "Azure Computer Vision",
+      "purpose": "Vision AI",
+      "auth": "API Key",
+      "access": "https://portal.azure.com/",
+      "docs": "https://learn.microsoft.com/azure/ai-services/computer-vision/"
+    },
+    {
+      "category": "Vision",
+      "name": "AWS Rekognition",
+      "purpose": "Image and video analysis",
+      "auth": "Access Key",
+      "access": "https://console.aws.amazon.com/iam/",
+      "docs": "https://docs.aws.amazon.com/rekognition/"
+    },
+    {
+      "category": "Weather / Environment",
+      "name": "Meteostat",
+      "purpose": "Historical weather",
+      "auth": "None",
+      "access": "https://meteostat.net/en/api/",
+      "docs": "https://dev.meteostat.net/"
+    },
+    {
+      "category": "Weather / Environment",
+      "name": "Visual Crossing",
+      "purpose": "Weather data",
+      "auth": "API Key",
+      "access": "https://www.visualcrossing.com/weather-api",
+      "docs": "https://www.visualcrossing.com/weather-api"
+    },
+    {
+      "category": "Weather / Environment",
+      "name": "Tomorrow.io",
+      "purpose": "Weather intelligence",
+      "auth": "API Key",
+      "access": "https://app.tomorrow.io/",
+      "docs": "https://docs.tomorrow.io/"
+    },
+    {
+      "category": "Weather / Environment",
+      "name": "Weatherstack",
+      "purpose": "Current and historical weather",
+      "auth": "API Key",
+      "access": "https://weatherstack.com/signup/free",
+      "docs": "https://weatherstack.com/documentation"
+    },
+    {
+      "category": "Weather / Environment",
+      "name": "Climatiq",
+      "purpose": "Carbon emissions data",
+      "auth": "API Key",
+      "access": "https://developers.climatiq.io/",
+      "docs": "https://www.climatiq.io/"
+    },
+    {
+      "category": "Maps / Location",
+      "name": "Google Maps Platform",
+      "purpose": "Maps, geocoding and places",
+      "auth": "API Key",
+      "access": "https://console.cloud.google.com/google/maps-apis/credentials",
+      "docs": "https://developers.google.com/maps"
+    },
+    {
+      "category": "Maps / Location",
+      "name": "HERE",
+      "purpose": "Maps and location services",
+      "auth": "API Key",
+      "access": "https://developer.here.com/sign-up",
+      "docs": "https://developer.here.com/documentation"
+    },
+    {
+      "category": "Maps / Location",
+      "name": "Radar",
+      "purpose": "Geofencing and maps",
+      "auth": "API Key",
+      "access": "https://radar.com/dashboard",
+      "docs": "https://docs.radar.com/"
+    },
+    {
+      "category": "Maps / Location",
+      "name": "LocationIQ",
+      "purpose": "Geocoding and maps",
+      "auth": "API Key",
+      "access": "https://locationiq.com/register",
+      "docs": "https://locationiq.com/docs"
+    },
+    {
+      "category": "Maps / Location",
+      "name": "Bing Maps",
+      "purpose": "Maps and geocoding",
+      "auth": "API Key",
+      "access": "https://www.bingmapsportal.com/",
+      "docs": "https://learn.microsoft.com/bingmaps/"
+    },
+    {
+      "category": "Maps / Location",
+      "name": "GeoJS",
+      "purpose": "IP geolocation",
+      "auth": "None",
+      "access": "https://www.geojs.io/",
+      "docs": "https://www.geojs.io/"
+    },
+    {
+      "category": "News",
+      "name": "NewsData.io",
+      "purpose": "Global news",
+      "auth": "API Key",
+      "access": "https://newsdata.io/register",
+      "docs": "https://newsdata.io/documentation"
+    },
+    {
+      "category": "News",
+      "name": "Mediastack",
+      "purpose": "News API",
+      "auth": "API Key",
+      "access": "https://mediastack.com/signup",
+      "docs": "https://mediastack.com/documentation"
+    },
+    {
+      "category": "News",
+      "name": "NYTimes API",
+      "purpose": "News and archive data",
+      "auth": "API Key",
+      "access": "https://developer.nytimes.com/get-started",
+      "docs": "https://developer.nytimes.com/"
+    },
+    {
+      "category": "News",
+      "name": "GDELT",
+      "purpose": "Global event and news data",
+      "auth": "None",
+      "access": "https://www.gdeltproject.org/",
+      "docs": "https://www.gdeltproject.org/"
+    },
+    {
+      "category": "News",
+      "name": "The Guardian API",
+      "purpose": "News articles",
+      "auth": "API Key",
+      "access": "https://bonobo.capi.guardianapis.com/register",
+      "docs": "https://open-platform.theguardian.com/"
+    },
+    {
+      "category": "Finance",
+      "name": "Marketstack",
+      "purpose": "Stocks and market data",
+      "auth": "API Key",
+      "access": "https://marketstack.com/signup/free",
+      "docs": "https://marketstack.com/documentation"
+    },
+    {
+      "category": "Finance",
+      "name": "Polygon",
+      "purpose": "Market data",
+      "auth": "API Key",
+      "access": "https://polygon.io/dashboard/api-keys",
+      "docs": "https://polygon.io/docs"
+    },
+    {
+      "category": "Finance",
+      "name": "Tink",
+      "purpose": "Financial account connectivity",
+      "auth": "API Key",
+      "access": "https://docs.tink.com/",
+      "docs": "https://docs.tink.com/"
+    },
+    {
+      "category": "Finance",
+      "name": "Plaid",
+      "purpose": "Financial data connectivity",
+      "auth": "Client ID/Secret",
+      "access": "https://dashboard.plaid.com/",
+      "docs": "https://plaid.com/docs/"
+    },
+    {
+      "category": "Finance",
+      "name": "Teller",
+      "purpose": "Open banking API",
+      "auth": "Application",
+      "access": "https://teller.io/",
+      "docs": "https://teller.io/docs"
+    },
+    {
+      "category": "Finance",
+      "name": "ExchangeRate.host",
+      "purpose": "Currency conversion",
+      "auth": "None / Key",
+      "access": "https://exchangerate.host/",
+      "docs": "https://exchangerate.host/"
+    },
+    {
+      "category": "E-commerce",
+      "name": "Fake Store API",
+      "purpose": "Fake products and carts",
+      "auth": "None",
+      "access": "https://fakestoreapi.com/",
+      "docs": "https://fakestoreapi.com/docs"
+    },
+    {
+      "category": "E-commerce",
+      "name": "DummyJSON Products",
+      "purpose": "Mock products data",
+      "auth": "None",
+      "access": "https://dummyjson.com/products",
+      "docs": "https://dummyjson.com/docs"
+    },
+    {
+      "category": "E-commerce",
+      "name": "Shopify Admin API",
+      "purpose": "Store data and operations",
+      "auth": "OAuth",
+      "access": "https://partners.shopify.com/",
+      "docs": "https://shopify.dev/docs/api"
+    },
+    {
+      "category": "E-commerce",
+      "name": "WooCommerce REST API",
+      "purpose": "Products and orders",
+      "auth": "Consumer Key/Secret",
+      "access": "https://woocommerce.com/document/woocommerce-rest-api/",
+      "docs": "https://woocommerce.github.io/woocommerce-rest-api-docs/"
+    },
+    {
+      "category": "E-commerce",
+      "name": "Printful API",
+      "purpose": "Print-on-demand catalog",
+      "auth": "API Key",
+      "access": "https://developers.printful.com/",
+      "docs": "https://developers.printful.com/"
+    },
+    {
+      "category": "E-commerce",
+      "name": "eBay APIs",
+      "purpose": "Marketplace data",
+      "auth": "OAuth",
+      "access": "https://developer.ebay.com/my/keys",
+      "docs": "https://developer.ebay.com/docs"
+    },
+    {
+      "category": "Programming",
+      "name": "Judge0",
+      "purpose": "Online code execution",
+      "auth": "API Key",
+      "access": "https://ce.judge0.com/",
+      "docs": "https://ce.judge0.com/"
+    },
+    {
+      "category": "Programming",
+      "name": "Piston",
+      "purpose": "Code execution API",
+      "auth": "None",
+      "access": "https://github.com/engineer-man/piston",
+      "docs": "https://github.com/engineer-man/piston"
+    },
+    {
+      "category": "Programming",
+      "name": "GitHub REST API",
+      "purpose": "Repositories and code",
+      "auth": "Token optional",
+      "access": "https://github.com/settings/tokens",
+      "docs": "https://docs.github.com/rest"
+    },
+    {
+      "category": "Programming",
+      "name": "GitHub GraphQL API",
+      "purpose": "Graph data for GitHub",
+      "auth": "Token",
+      "access": "https://github.com/settings/tokens",
+      "docs": "https://docs.github.com/graphql"
+    },
+    {
+      "category": "Programming",
+      "name": "GitLab API",
+      "purpose": "Repositories and CI/CD",
+      "auth": "Token",
+      "access": "https://gitlab.com/-/user_settings/personal_access_tokens",
+      "docs": "https://docs.gitlab.com/ee/api/"
+    },
+    {
+      "category": "Programming",
+      "name": "Codeforces API",
+      "purpose": "Contest and problem data",
+      "auth": "API Key optional",
+      "access": "https://codeforces.com/settings/api",
+      "docs": "https://codeforces.com/apiHelp"
+    },
+    {
+      "category": "Programming",
+      "name": "HackerRank",
+      "purpose": "Coding platform integrations",
+      "auth": "API / partner",
+      "access": "https://www.hackerrank.com/",
+      "docs": "https://support.hackerrank.com/"
+    },
+    {
+      "category": "Email / Messaging",
+      "name": "EmailJS",
+      "purpose": "Client-side email sending",
+      "auth": "Public Key",
+      "access": "https://dashboard.emailjs.com/admin/account",
+      "docs": "https://www.emailjs.com/docs/"
+    },
+    {
+      "category": "Email / Messaging",
+      "name": "Mailjet",
+      "purpose": "Email API",
+      "auth": "API Key",
+      "access": "https://app.mailjet.com/account/api_keys",
+      "docs": "https://dev.mailjet.com/"
+    },
+    {
+      "category": "Email / Messaging",
+      "name": "Postmark",
+      "purpose": "Transactional email",
+      "auth": "Server Token",
+      "access": "https://account.postmarkapp.com/",
+      "docs": "https://postmarkapp.com/developer"
+    },
+    {
+      "category": "Email / Messaging",
+      "name": "EmailOctopus",
+      "purpose": "Email marketing API",
+      "auth": "API Key",
+      "access": "https://emailoctopus.com/api-documentation",
+      "docs": "https://emailoctopus.com/api-documentation"
+    },
+    {
+      "category": "Email / Messaging",
+      "name": "OneSignal",
+      "purpose": "Push notifications",
+      "auth": "App ID / Key",
+      "access": "https://dashboard.onesignal.com/",
+      "docs": "https://documentation.onesignal.com/"
+    },
+    {
+      "category": "Social / Bots",
+      "name": "Telegram Bot API",
+      "purpose": "Telegram chatbot interface",
+      "auth": "Bot Token",
+      "access": "https://t.me/BotFather",
+      "docs": "https://core.telegram.org/bots/api"
+    },
+    {
+      "category": "Social / Bots",
+      "name": "Discord Developer API",
+      "purpose": "Bots and applications",
+      "auth": "Bot Token",
+      "access": "https://discord.com/developers/applications",
+      "docs": "https://discord.com/developers/docs/"
+    },
+    {
+      "category": "Social / Bots",
+      "name": "Slack Platform",
+      "purpose": "Workspace bots",
+      "auth": "OAuth",
+      "access": "https://api.slack.com/apps",
+      "docs": "https://api.slack.com/"
+    },
+    {
+      "category": "Social / Bots",
+      "name": "Twitch API",
+      "purpose": "Streaming and creator data",
+      "auth": "OAuth / Client ID",
+      "access": "https://dev.twitch.tv/console",
+      "docs": "https://dev.twitch.tv/docs/api/"
+    },
+    {
+      "category": "Social / Bots",
+      "name": "Bluesky API",
+      "purpose": "Social graph and posts",
+      "auth": "Session",
+      "access": "https://docs.bsky.app/",
+      "docs": "https://docs.bsky.app/"
+    },
+    {
+      "category": "Social / Bots",
+      "name": "Mastodon API",
+      "purpose": "Social platform API",
+      "auth": "OAuth",
+      "access": "https://docs.joinmastodon.org/client/intro/",
+      "docs": "https://docs.joinmastodon.org/"
+    },
+    {
+      "category": "Authentication",
+      "name": "Clerk",
+      "purpose": "Authentication and user management",
+      "auth": "API Key",
+      "access": "https://dashboard.clerk.com/",
+      "docs": "https://clerk.com/docs"
+    },
+    {
+      "category": "Authentication",
+      "name": "Auth0",
+      "purpose": "Authentication and authorization",
+      "auth": "Domain / Client ID",
+      "access": "https://manage.auth0.com/",
+      "docs": "https://auth0.com/docs"
+    },
+    {
+      "category": "Authentication",
+      "name": "Stytch",
+      "purpose": "Authentication APIs",
+      "auth": "API Keys",
+      "access": "https://stytch.com/dashboard",
+      "docs": "https://stytch.com/docs"
+    },
+    {
+      "category": "Authentication",
+      "name": "Kinde",
+      "purpose": "Authentication and identity",
+      "auth": "OAuth",
+      "access": "https://app.kinde.com/",
+      "docs": "https://docs.kinde.com/"
+    },
+    {
+      "category": "Authentication",
+      "name": "Supabase Auth",
+      "purpose": "Authentication and sessions",
+      "auth": "Project Key",
+      "access": "https://supabase.com/dashboard",
+      "docs": "https://supabase.com/docs/guides/auth"
+    },
+    {
+      "category": "Science / Space",
+      "name": "NASA",
+      "purpose": "Space and Earth data",
+      "auth": "API Key",
+      "access": "https://api.nasa.gov/",
+      "docs": "https://api.nasa.gov/"
+    },
+    {
+      "category": "Science / Space",
+      "name": "SpaceX",
+      "purpose": "Launch and rocket data",
+      "auth": "None",
+      "access": "https://github.com/r-spacex/SpaceX-API",
+      "docs": "https://github.com/r-spacex/SpaceX-API"
+    },
+    {
+      "category": "Science / Space",
+      "name": "USGS Earthquake",
+      "purpose": "Earthquake feeds",
+      "auth": "None",
+      "access": "https://earthquake.usgs.gov/fdsnws/event/1/",
+      "docs": "https://earthquake.usgs.gov/"
+    },
+    {
+      "category": "Science / Space",
+      "name": "OpenAQ",
+      "purpose": "Air quality measurements",
+      "auth": "None",
+      "access": "https://docs.openaq.org/",
+      "docs": "https://openaq.org/"
+    },
+    {
+      "category": "Science / Space",
+      "name": "Wikidata",
+      "purpose": "Structured knowledge graph",
+      "auth": "None",
+      "access": "https://www.wikidata.org/wiki/Wikidata:Data_access",
+      "docs": "https://www.wikidata.org/"
+    },
+    {
+      "category": "Entertainment",
+      "name": "Jikan",
+      "purpose": "MyAnimeList API",
+      "auth": "None",
+      "access": "https://jikan.moe/",
+      "docs": "https://docs.api.jikan.moe/"
+    },
+    {
+      "category": "Entertainment",
+      "name": "YouTube Data API",
+      "purpose": "Video metadata and search",
+      "auth": "API Key",
+      "access": "https://console.cloud.google.com/apis/credentials",
+      "docs": "https://developers.google.com/youtube/v3"
+    },
+    {
+      "category": "Utility",
+      "name": "Random User",
+      "purpose": "Random profile data",
+      "auth": "None",
+      "access": "https://randomuser.me/",
+      "docs": "https://randomuser.me/documentation"
+    },
+    {
+      "category": "Utility",
+      "name": "DiceBear",
+      "purpose": "Avatar generation",
+      "auth": "None",
+      "access": "https://www.dicebear.com/",
+      "docs": "https://www.dicebear.com/how-to-use/http-api/"
+    },
+    {
+      "category": "Utility",
+      "name": "JSONPlaceholder",
+      "purpose": "Fake REST API",
+      "auth": "None",
+      "access": "https://jsonplaceholder.typicode.com/",
+      "docs": "https://jsonplaceholder.typicode.com/"
+    },
+    {
+      "category": "Utility",
+      "name": "DummyJSON",
+      "purpose": "Mock REST data",
+      "auth": "None",
+      "access": "https://dummyjson.com/",
+      "docs": "https://dummyjson.com/docs"
+    },
+    {
+      "category": "Utility",
+      "name": "HTTPBin",
+      "purpose": "HTTP request testing",
+      "auth": "None",
+      "access": "https://httpbin.org/",
+      "docs": "https://httpbin.org/"
+    },
+    {
+      "category": "Utility",
+      "name": "Public APIs Directory API",
+      "purpose": "Searchable public API catalog",
+      "auth": "None",
+      "access": "https://api.publicapis.org/entries",
+      "docs": "https://github.com/davemachado/public-api"
+    }
+  ]
+}

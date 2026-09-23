@@ -1,0 +1,241 @@
+category,name,purpose,auth,access,docs
+AI / LLM,Groq,Fast LLM inference,`API Key`,https://console.groq.com/keys,https://console.groq.com/
+AI / LLM,Hugging Face,Open-source models and inference,`Token`,https://huggingface.co/settings/tokens,https://huggingface.co/
+AI / LLM,OpenRouter,Access multiple LLM providers,`API Key`,https://openrouter.ai/settings/keys,https://openrouter.ai/
+AI / LLM,Mistral AI,LLM and embeddings,`API Key`,https://console.mistral.ai/api-keys/,https://console.mistral.ai/
+AI / LLM,Cohere,"Chat, embeddings and RAG",`API Key`,https://dashboard.cohere.com/api-keys,https://cohere.com/
+AI / LLM,Together AI,Open-source LLM inference,`API Key`,https://api.together.ai/settings/api-keys,https://www.together.ai/
+AI / LLM,Cerebras,Fast AI inference,`API Key`,https://cloud.cerebras.ai/,https://www.cerebras.ai/
+AI / LLM,Replicate,Run hosted AI models,`API Token`,https://replicate.com/account/api-tokens,https://replicate.com/
+AI / LLM,Ollama,Run LLMs locally,`None`,https://ollama.com/,https://ollama.com/
+AI / LLM,LM Studio,Local LLM server,`None`,https://lmstudio.ai/,https://lmstudio.ai/
+Search / Web,Tavily,AI web search,`API Key`,https://app.tavily.com/,https://tavily.com/
+Search / Web,Brave Search,Web search,`API Key`,https://api-dashboard.search.brave.com/,https://brave.com/search/api/
+Search / Web,Serper,Google search data,`API Key`,https://serper.dev/,https://serper.dev/
+Search / Web,Wikipedia,Knowledge retrieval,`None`,https://www.mediawiki.org/wiki/API:Main_page,https://www.wikipedia.org/
+Search / Web,GDELT,Global news and events,`None`,https://www.gdeltproject.org/,https://www.gdeltproject.org/
+Search / Web,Internet Archive,Web and digital archives,`None`,https://archive.org/developers/,https://archive.org/
+Search / Web,Hacker News,Technology stories,`None`,https://github.com/HackerNews/API,https://news.ycombinator.com/
+Search / Web,Reddit,Community content,`OAuth/API`,https://www.reddit.com/prefs/apps,https://www.reddit.com/
+RAG / Research,arXiv,Research papers,`None`,https://info.arxiv.org/help/api/index.html,https://arxiv.org/
+RAG / Research,OpenAlex,Academic research graph,`None`,https://docs.openalex.org/,https://openalex.org/
+RAG / Research,Crossref,Publication metadata,`None`,https://api.crossref.org/,https://www.crossref.org/
+RAG / Research,Semantic Scholar,Academic search,`API Key optional`,https://www.semanticscholar.org/product/api,https://www.semanticscholar.org/
+RAG / Research,PubMed,Biomedical literature,`None`,https://www.ncbi.nlm.nih.gov/books/NBK25501/,https://pubmed.ncbi.nlm.nih.gov/
+RAG / Research,Open Library,Books and metadata,`None`,https://openlibrary.org/developers/api,https://openlibrary.org/
+RAG / Research,Wikidata,Knowledge graph,`None`,https://www.wikidata.org/wiki/Wikidata:Data_access,https://www.wikidata.org/
+Weather,Open-Meteo,Weather forecasts,`None`,https://open-meteo.com/,https://open-meteo.com/
+Weather,OpenWeather,Weather data,`API Key`,https://home.openweathermap.org/api_keys,https://openweathermap.org/
+Weather,WeatherAPI,Weather and forecasts,`API Key`,https://www.weatherapi.com/signup.aspx,https://www.weatherapi.com/
+Weather,Weatherbit,Weather data,`API Key`,https://www.weatherbit.io/account/create,https://www.weatherbit.io/
+Weather,OpenAQ,Air quality,`None`,https://docs.openaq.org/,https://openaq.org/
+Weather,AQICN,Air quality,`API Key`,https://aqicn.org/data-platform/token/,https://aqicn.org/
+Maps / Location,OpenStreetMap,Open map data,`None`,https://www.openstreetmap.org/,https://www.openstreetmap.org/
+Maps / Location,Nominatim,Geocoding,`None`,https://nominatim.org/,https://nominatim.org/
+Maps / Location,Mapbox,Maps and navigation,`Access Token`,https://account.mapbox.com/access-tokens/,https://www.mapbox.com/
+Maps / Location,OpenRouteService,Routing and directions,`API Key`,https://openrouteservice.org/dev/,https://openrouteservice.org/
+Maps / Location,Geoapify,Geocoding and places,`API Key`,https://myprojects.geoapify.com/,https://www.geoapify.com/
+Maps / Location,GeoNames,Geographic data,`Username`,https://www.geonames.org/login,https://www.geonames.org/
+Maps / Location,IPinfo,IP geolocation,`Token`,https://ipinfo.io/signup,https://ipinfo.io/
+Maps / Location,IP-API,IP geolocation,`None`,https://ip-api.com/,https://ip-api.com/
+News,NewsAPI,News search,`API Key`,https://newsapi.org/register,https://newsapi.org/
+News,GNews,News search,`API Key`,https://gnews.io/,https://gnews.io/
+News,TheNewsAPI,News feeds,`API Key`,https://www.thenewsapi.com/,https://www.thenewsapi.com/
+News,Guardian API,News articles,`API Key`,https://bonobo.capi.guardianapis.com/register,https://www.theguardian.com/
+News,New York Times API,News and archives,`API Key`,https://developer.nytimes.com/get-started,https://developer.nytimes.com/
+News,Currents API,News search,`API Key`,https://currentsapi.services/en/register,https://currentsapi.services/
+Finance,Alpha Vantage,Stocks and forex,`API Key`,https://www.alphavantage.co/support/#api-key,https://www.alphavantage.co/
+Finance,Finnhub,Market data,`API Key`,https://finnhub.io/dashboard,https://finnhub.io/
+Finance,CoinGecko,Crypto data,`API Key`,https://www.coingecko.com/en/api,https://www.coingecko.com/
+Finance,CoinCap,Crypto market data,`API Key optional`,https://pro.coincap.io/,https://coincap.io/
+Finance,Frankfurter,Currency exchange,`None`,https://www.frankfurter.app/,https://www.frankfurter.app/
+Finance,FRED,Economic indicators,`API Key`,https://fred.stlouisfed.org/docs/api/api_key.html,https://fred.stlouisfed.org/
+Finance,Twelve Data,"Stocks, forex and crypto",`API Key`,https://twelvedata.com/pricing,https://twelvedata.com/
+Finance,World Bank,Economic and development data,`None`,https://datahelpdesk.worldbank.org/knowledgebase/articles/889392-about-the-indicators-api-documentation,https://www.worldbank.org/
+Images / Media,Pexels,Stock image search,`API Key`,https://www.pexels.com/api/,https://www.pexels.com/
+Images / Media,Unsplash,Image search,`Access Key`,https://unsplash.com/developers,https://unsplash.com/
+Images / Media,Pixabay,Images and videos,`API Key`,https://pixabay.com/api/docs/,https://pixabay.com/
+Images / Media,Giphy,GIF search,`API Key`,https://developers.giphy.com/dashboard/,https://giphy.com/
+Images / Media,Tenor,GIF search,`API Key`,https://developers.google.com/tenor,https://tenor.com/
+Images / Media,DiceBear,Avatar generation,`None`,https://www.dicebear.com/,https://www.dicebear.com/
+Images / Media,Lorem Picsum,Placeholder images,`None`,https://picsum.photos/,https://picsum.photos/
+Speech / Audio,Deepgram,Speech-to-text and audio AI,`API Key`,https://console.deepgram.com/,https://deepgram.com/
+Speech / Audio,AssemblyAI,Speech-to-text,`API Key`,https://www.assemblyai.com/dashboard/,https://www.assemblyai.com/
+Speech / Audio,ElevenLabs,Text-to-speech,`API Key`,https://elevenlabs.io/app/settings/api-keys,https://elevenlabs.io/
+Speech / Audio,Whisper,Speech recognition,`Local/Open-source`,https://github.com/openai/whisper,https://github.com/openai/whisper
+Speech / Audio,Piper TTS,Local text-to-speech,`None`,https://github.com/rhasspy/piper,https://github.com/rhasspy/piper
+Translation / NLP,LibreTranslate,Machine translation,`API Key optional`,https://libretranslate.com/,https://libretranslate.com/
+Translation / NLP,DeepL,Translation,`API Key`,https://www.deepl.com/pro-api,https://www.deepl.com/
+Translation / NLP,LanguageTool,Grammar checking,`API Key optional`,https://languagetool.org/http-api/,https://languagetool.org/
+Translation / NLP,Datamuse,Word relationships,`None`,https://www.datamuse.com/api/,https://www.datamuse.com/
+Translation / NLP,Free Dictionary,Definitions,`None`,https://dictionaryapi.dev/,https://dictionaryapi.dev/
+Cybersecurity,VirusTotal,File and URL intelligence,`API Key`,https://www.virustotal.com/gui/user/apikey,https://www.virustotal.com/
+Cybersecurity,AbuseIPDB,IP reputation,`API Key`,https://www.abuseipdb.com/account/api,https://www.abuseipdb.com/
+Cybersecurity,Shodan,Internet intelligence,`API Key`,https://account.shodan.io/,https://www.shodan.io/
+Cybersecurity,URLScan,URL analysis,`API Key`,https://urlscan.io/user/signup/,https://urlscan.io/
+Cybersecurity,NVD,Vulnerability database,`API Key optional`,https://nvd.nist.gov/developers/request-an-api-key,https://nvd.nist.gov/
+Cybersecurity,CISA KEV,Known exploited vulnerabilities,`None`,https://www.cisa.gov/known-exploited-vulnerabilities-catalog,https://www.cisa.gov/
+Cybersecurity,URLhaus,Malicious URL intelligence,`None`,https://urlhaus.abuse.ch/api/,https://urlhaus.abuse.ch/
+Healthcare,OpenFDA,FDA public data,`None/API Key`,https://open.fda.gov/apis/,https://open.fda.gov/
+Healthcare,ClinicalTrials.gov,Clinical trials,`None`,https://clinicaltrials.gov/data-api/api,https://clinicaltrials.gov/
+Healthcare,RxNorm,Medication terminology,`None`,https://lhncbc.nlm.nih.gov/RxNav/APIs/,https://www.nlm.nih.gov/
+Healthcare,NLM APIs,Biomedical data,`None`,https://www.nlm.nih.gov/databases/,https://www.nlm.nih.gov/
+Travel,Amadeus,Flights and travel,`API Key`,https://developers.amadeus.com/register,https://developers.amadeus.com/
+Travel,AviationStack,Flight data,`API Key`,https://aviationstack.com/signup/free,https://aviationstack.com/
+Travel,OpenSky Network,Aircraft tracking,`OAuth/None`,https://opensky-network.org/,https://opensky-network.org/
+Travel,REST Countries,Country information,`None`,https://restcountries.com/,https://restcountries.com/
+Travel,OpenTripMap,Tourist attractions,`API Key`,https://opentripmap.io/product,https://opentripmap.io/
+Sports,TheSportsDB,Sports data,`API Key optional`,https://www.thesportsdb.com/,https://www.thesportsdb.com/
+Sports,API-Football,Football data,`API Key`,https://dashboard.api-football.com/,https://www.api-football.com/
+Sports,balldontlie,Basketball data,`API Key`,https://www.balldontlie.io/,https://www.balldontlie.io/
+Sports,Jolpica F1,Formula 1 data,`None`,https://api.jolpi.ca/ergast/f1/,https://jolpi.ca/
+Communication,Telegram Bot API,Telegram chatbots,`Bot Token`,https://t.me/BotFather,https://core.telegram.org/bots/api
+Communication,Discord,Discord bots,`Bot Token`,https://discord.com/developers/applications,https://discord.com/developers/docs/
+Communication,Slack,Workspace bots,`OAuth`,https://api.slack.com/apps,https://api.slack.com/
+Communication,Twilio,SMS and communication,`API Key`,https://console.twilio.com/,https://www.twilio.com/
+Communication,WhatsApp Cloud API,WhatsApp messaging,`Token`,https://developers.facebook.com/apps/,https://developers.facebook.com/docs/whatsapp/cloud-api/
+Email,Resend,Transactional email,`API Key`,https://resend.com/api-keys,https://resend.com/
+Email,Brevo,Email and messaging,`API Key`,https://app.brevo.com/settings/keys/api,https://www.brevo.com/
+Email,SendGrid,Transactional email,`API Key`,https://app.sendgrid.com/guide/integrate/langs/api-keys,https://sendgrid.com/
+Email,Mailgun,Email API,`API Key`,https://app.mailgun.com/,https://www.mailgun.com/
+Payments,Razorpay,Indian payments,`API Key`,https://dashboard.razorpay.com/app/keys,https://razorpay.com/
+Payments,Stripe,Payments and billing,`API Key`,https://dashboard.stripe.com/apikeys,https://stripe.com/
+Payments,Cashfree,Indian payments,`API Key`,https://merchant.cashfree.com/merchants/api-keys,https://www.cashfree.com/
+Payments,PayPal,Payments,`Client ID/Secret`,https://developer.paypal.com/dashboard/,https://developer.paypal.com/
+Database / Backend,Supabase,"PostgreSQL, auth and storage",`API Key`,https://supabase.com/dashboard,https://supabase.com/
+Database / Backend,Firebase,"Database, auth and storage",`Config/API`,https://console.firebase.google.com/,https://firebase.google.com/
+Database / Backend,Appwrite,Backend services,`API Key`,https://cloud.appwrite.io/,https://appwrite.io/
+Database / Backend,Convex,Backend database,`Project credentials`,https://dashboard.convex.dev/,https://www.convex.dev/
+Developer,GitHub,Repositories and developer data,`Token`,https://github.com/settings/tokens,https://github.com/
+Developer,GitLab,Repositories and CI/CD,`Token`,https://gitlab.com/-/user_settings/personal_access_tokens,https://gitlab.com/
+Developer,npm Registry,Package metadata,`None`,https://registry.npmjs.org/,https://www.npmjs.com/
+Developer,PyPI,Python package metadata,`None`,https://pypi.org/,https://pypi.org/
+Developer,JSONPlaceholder,Fake REST data,`None`,https://jsonplaceholder.typicode.com/,https://jsonplaceholder.typicode.com/
+Developer,DummyJSON,Fake REST data,`None`,https://dummyjson.com/,https://dummyjson.com/
+Developer,httpbin,HTTP testing,`None`,https://httpbin.org/,https://httpbin.org/
+Developer,Random User,Random user profiles,`None`,https://randomuser.me/,https://randomuser.me/
+Science / Space,NASA APIs,Space and Earth data,`API Key`,https://api.nasa.gov/,https://api.nasa.gov/
+Science / Space,SpaceX API,Launch and rocket data,`None`,https://github.com/r-spacex/SpaceX-API,https://www.spacex.com/
+Science / Space,USGS,Earthquake and Earth data,`None`,https://earthquake.usgs.gov/fdsnws/event/1/,https://www.usgs.gov/
+Science / Space,GBIF,Biodiversity data,`None`,https://www.gbif.org/developer/summary,https://www.gbif.org/
+Entertainment,TMDB,Movies and TV,`API Key`,https://www.themoviedb.org/settings/api,https://www.themoviedb.org/
+Entertainment,OMDb,Movie information,`API Key`,https://www.omdbapi.com/apikey.aspx,https://www.omdbapi.com/
+Entertainment,TVMaze,TV show data,`None`,https://www.tvmaze.com/api,https://www.tvmaze.com/
+Entertainment,Spotify,Music data,`OAuth`,https://developer.spotify.com/dashboard,https://developer.spotify.com/
+Utility,IPify,Public IP address,`None`,https://www.ipify.org/,https://www.ipify.org/
+Utility,QR Server,QR code generation,`None`,https://goqr.me/api/,https://goqr.me/api/
+Utility,Advice Slip,Advice text,`None`,https://api.adviceslip.com/,https://api.adviceslip.com/
+Utility,Numbers API,Number facts,`None`,http://numbersapi.com/,http://numbersapi.com/
+Utility,Agify,Age prediction,`None`,https://agify.io/,https://agify.io/
+Utility,Genderize,Gender prediction,`None`,https://genderize.io/,https://genderize.io/
+Utility,Nationalize,Nationality prediction,`None`,https://nationalize.io/,https://nationalize.io/
+AI / LLM,Anthropic,Claude models and AI assistants,API Key,https://console.anthropic.com/,https://docs.anthropic.com/
+AI / LLM,AI21 Labs,Language models and text APIs,API Key,https://studio.ai21.com/account/api-key,https://docs.ai21.com/
+AI / LLM,Fireworks AI,Fast generative AI inference,API Key,https://fireworks.ai/account/api-keys,https://docs.fireworks.ai/
+AI / LLM,DeepInfra,Hosted open-source model inference,API Key,https://deepinfra.com/dash/api_keys,https://deepinfra.com/
+AI / LLM,SambaNova Cloud,Generative AI inference,API Key,https://cloud.sambanova.ai/apis,https://docs.sambanova.ai/
+AI / LLM,AI Horde,Community-powered image and text generation,API Key optional,https://aihorde.net/,https://aihorde.net/
+AI / LLM,Perplexity,AI search and language models,API Key,https://www.perplexity.ai/settings/api,https://docs.perplexity.ai/
+AI / LLM,GroqCloud Models,Open models on Groq infrastructure,API Key,https://console.groq.com/keys,https://console.groq.com/docs/
+AI / LLM,NVIDIA Build,Generative AI model APIs,API Key,https://build.nvidia.com/,https://docs.api.nvidia.com/
+AI / LLM,Modal,Run serverless AI workloads,API Key,https://modal.com/settings,https://modal.com/docs/
+Search / Web,Exa,Semantic web search for AI agents,API Key,https://dashboard.exa.ai/api-keys,https://docs.exa.ai/
+Search / Web,Jina Reader,Web page to LLM-ready text,API Key,https://jina.ai/reader,https://jina.ai/reader
+Search / Web,Jina Search,Search API for agents,API Key,https://jina.ai/reader,https://jina.ai/reader
+Search / Web,SearXNG,Open metasearch engine,None,https://docs.searxng.org/,https://docs.searxng.org/
+Search / Web,DuckDuckGo Instant Answer,Search answers,None,https://duckduckgo.com/api,https://duckduckgo.com/api
+Search / Web,Google Custom Search,Programmable web search,API Key,https://console.cloud.google.com/apis/credentials,https://developers.google.com/custom-search/v1/
+Search / Web,Common Crawl,Web crawl index,None,https://index.commoncrawl.org/,https://commoncrawl.org/
+Search / Web,Mediastack,News and media data,API Key,https://mediastack.com/signup,https://mediastack.com/documentation
+Search / Web,SerpApi,Search engine results,API Key,https://serpapi.com/manage-api-key,https://serpapi.com/
+RAG / Data,Pinecone,Vector database for RAG,API Key,https://app.pinecone.io/,https://docs.pinecone.io/
+RAG / Data,Qdrant Cloud,Vector search database,API Key,https://cloud.qdrant.io/,https://qdrant.tech/documentation/
+RAG / Data,Weaviate Cloud,Vector database,API Key,https://console.weaviate.cloud/,https://weaviate.io/developers/weaviate
+RAG / Data,Milvus,Vector database,None / Token,https://zilliz.com/cloud,https://milvus.io/docs
+RAG / Data,Chroma,Open-source vector database,None,https://www.trychroma.com/,https://docs.trychroma.com/
+RAG / Data,LanceDB,Embedded vector database,None,https://lancedb.com/,https://lancedb.com/docs
+RAG / Data,Supabase Vector,Postgres vector search,Project Key,https://supabase.com/dashboard,https://supabase.com/docs/guides/ai
+RAG / Data,Neo4j Aura,Graph database for knowledge graphs,Login,https://console.neo4j.io/,https://neo4j.com/docs/
+RAG / Data,Unstructured,Document processing for RAG,API Key,https://app.unstructured.io/,https://docs.unstructured.io/
+RAG / Data,Firecrawl,Web scraping for AI agents,API Key,https://www.firecrawl.dev/app/api-keys,https://docs.firecrawl.dev/
+OCR / Documents,OCR.Space,OCR API,API Key,https://ocr.space/ocrapi,https://ocr.space/ocrapi
+OCR / Documents,Nanonets,OCR and document processing,API Key,https://app.nanonets.com/,https://nanonets.com/
+OCR / Documents,Mindee,Document parsing,API Key,https://platform.mindee.com/,https://developers.mindee.com/
+OCR / Documents,Cloudmersive,Document and OCR APIs,API Key,https://account.cloudmersive.com/,https://cloudmersive.com/
+OCR / Documents,PDF.co,PDF processing,API Key,https://app.pdf.co/,https://docs.pdf.co/
+OCR / Documents,ConvertAPI,Document conversion,API Key,https://www.convertapi.com/a/users/signup,https://www.convertapi.com/
+Speech / Audio,Google Speech-to-Text,Speech recognition,API Key,https://console.cloud.google.com/apis/credentials,https://cloud.google.com/speech-to-text/docs
+Speech / Audio,Azure Speech,Speech and voice services,API Key,https://portal.azure.com/,https://learn.microsoft.com/azure/ai-services/speech-service/
+Speech / Audio,PlayHT,Text-to-speech,API Key,https://play.ht/app/api-access,https://docs.play.ht/
+Speech / Audio,Cartesia,Low-latency voice AI,API Key,https://play.cartesia.ai/,https://docs.cartesia.ai/
+Speech / Audio,Picovoice,On-device voice AI,Access Key,https://console.picovoice.ai/,https://picovoice.ai/docs/
+Vision,Roboflow,Computer vision inference and datasets,API Key,https://app.roboflow.com/,https://docs.roboflow.com/
+Vision,Clarifai,Vision and AI inference,API Key,https://clarifai.com/settings/security,https://docs.clarifai.com/
+Vision,Hugging Face Inference,Computer vision and multimodal models,Token,https://huggingface.co/settings/tokens,https://huggingface.co/inference-api
+Vision,Google Vision,Image understanding,API Key,https://console.cloud.google.com/apis/credentials,https://cloud.google.com/vision/docs
+Vision,Azure Computer Vision,Vision AI,API Key,https://portal.azure.com/,https://learn.microsoft.com/azure/ai-services/computer-vision/
+Vision,AWS Rekognition,Image and video analysis,Access Key,https://console.aws.amazon.com/iam/,https://docs.aws.amazon.com/rekognition/
+Weather / Environment,Meteostat,Historical weather,None,https://meteostat.net/en/api/,https://dev.meteostat.net/
+Weather / Environment,Visual Crossing,Weather data,API Key,https://www.visualcrossing.com/weather-api,https://www.visualcrossing.com/weather-api
+Weather / Environment,Tomorrow.io,Weather intelligence,API Key,https://app.tomorrow.io/,https://docs.tomorrow.io/
+Weather / Environment,Weatherstack,Current and historical weather,API Key,https://weatherstack.com/signup/free,https://weatherstack.com/documentation
+Weather / Environment,Climatiq,Carbon emissions data,API Key,https://developers.climatiq.io/,https://www.climatiq.io/
+Maps / Location,Google Maps Platform,"Maps, geocoding and places",API Key,https://console.cloud.google.com/google/maps-apis/credentials,https://developers.google.com/maps
+Maps / Location,HERE,Maps and location services,API Key,https://developer.here.com/sign-up,https://developer.here.com/documentation
+Maps / Location,Radar,Geofencing and maps,API Key,https://radar.com/dashboard,https://docs.radar.com/
+Maps / Location,LocationIQ,Geocoding and maps,API Key,https://locationiq.com/register,https://locationiq.com/docs
+Maps / Location,Bing Maps,Maps and geocoding,API Key,https://www.bingmapsportal.com/,https://learn.microsoft.com/bingmaps/
+Maps / Location,GeoJS,IP geolocation,None,https://www.geojs.io/,https://www.geojs.io/
+News,NewsData.io,Global news,API Key,https://newsdata.io/register,https://newsdata.io/documentation
+News,Mediastack,News API,API Key,https://mediastack.com/signup,https://mediastack.com/documentation
+News,NYTimes API,News and archive data,API Key,https://developer.nytimes.com/get-started,https://developer.nytimes.com/
+News,GDELT,Global event and news data,None,https://www.gdeltproject.org/,https://www.gdeltproject.org/
+News,The Guardian API,News articles,API Key,https://bonobo.capi.guardianapis.com/register,https://open-platform.theguardian.com/
+Finance,Marketstack,Stocks and market data,API Key,https://marketstack.com/signup/free,https://marketstack.com/documentation
+Finance,Polygon,Market data,API Key,https://polygon.io/dashboard/api-keys,https://polygon.io/docs
+Finance,Tink,Financial account connectivity,API Key,https://docs.tink.com/,https://docs.tink.com/
+Finance,Plaid,Financial data connectivity,Client ID/Secret,https://dashboard.plaid.com/,https://plaid.com/docs/
+Finance,Teller,Open banking API,Application,https://teller.io/,https://teller.io/docs
+Finance,ExchangeRate.host,Currency conversion,None / Key,https://exchangerate.host/,https://exchangerate.host/
+E-commerce,Fake Store API,Fake products and carts,None,https://fakestoreapi.com/,https://fakestoreapi.com/docs
+E-commerce,DummyJSON Products,Mock products data,None,https://dummyjson.com/products,https://dummyjson.com/docs
+E-commerce,Shopify Admin API,Store data and operations,OAuth,https://partners.shopify.com/,https://shopify.dev/docs/api
+E-commerce,WooCommerce REST API,Products and orders,Consumer Key/Secret,https://woocommerce.com/document/woocommerce-rest-api/,https://woocommerce.github.io/woocommerce-rest-api-docs/
+E-commerce,Printful API,Print-on-demand catalog,API Key,https://developers.printful.com/,https://developers.printful.com/
+E-commerce,eBay APIs,Marketplace data,OAuth,https://developer.ebay.com/my/keys,https://developer.ebay.com/docs
+Programming,Judge0,Online code execution,API Key,https://ce.judge0.com/,https://ce.judge0.com/
+Programming,Piston,Code execution API,None,https://github.com/engineer-man/piston,https://github.com/engineer-man/piston
+Programming,GitHub REST API,Repositories and code,Token optional,https://github.com/settings/tokens,https://docs.github.com/rest
+Programming,GitHub GraphQL API,Graph data for GitHub,Token,https://github.com/settings/tokens,https://docs.github.com/graphql
+Programming,GitLab API,Repositories and CI/CD,Token,https://gitlab.com/-/user_settings/personal_access_tokens,https://docs.gitlab.com/ee/api/
+Programming,Codeforces API,Contest and problem data,API Key optional,https://codeforces.com/settings/api,https://codeforces.com/apiHelp
+Programming,HackerRank,Coding platform integrations,API / partner,https://www.hackerrank.com/,https://support.hackerrank.com/
+Email / Messaging,EmailJS,Client-side email sending,Public Key,https://dashboard.emailjs.com/admin/account,https://www.emailjs.com/docs/
+Email / Messaging,Mailjet,Email API,API Key,https://app.mailjet.com/account/api_keys,https://dev.mailjet.com/
+Email / Messaging,Postmark,Transactional email,Server Token,https://account.postmarkapp.com/,https://postmarkapp.com/developer
+Email / Messaging,EmailOctopus,Email marketing API,API Key,https://emailoctopus.com/api-documentation,https://emailoctopus.com/api-documentation
+Email / Messaging,OneSignal,Push notifications,App ID / Key,https://dashboard.onesignal.com/,https://documentation.onesignal.com/
+Social / Bots,Telegram Bot API,Telegram chatbot interface,Bot Token,https://t.me/BotFather,https://core.telegram.org/bots/api
+Social / Bots,Discord Developer API,Bots and applications,Bot Token,https://discord.com/developers/applications,https://discord.com/developers/docs/
+Social / Bots,Slack Platform,Workspace bots,OAuth,https://api.slack.com/apps,https://api.slack.com/
+Social / Bots,Twitch API,Streaming and creator data,OAuth / Client ID,https://dev.twitch.tv/console,https://dev.twitch.tv/docs/api/
+Social / Bots,Bluesky API,Social graph and posts,Session,https://docs.bsky.app/,https://docs.bsky.app/
+Social / Bots,Mastodon API,Social platform API,OAuth,https://docs.joinmastodon.org/client/intro/,https://docs.joinmastodon.org/
+Authentication,Clerk,Authentication and user management,API Key,https://dashboard.clerk.com/,https://clerk.com/docs
+Authentication,Auth0,Authentication and authorization,Domain / Client ID,https://manage.auth0.com/,https://auth0.com/docs
+Authentication,Stytch,Authentication APIs,API Keys,https://stytch.com/dashboard,https://stytch.com/docs
+Authentication,Kinde,Authentication and identity,OAuth,https://app.kinde.com/,https://docs.kinde.com/
+Authentication,Supabase Auth,Authentication and sessions,Project Key,https://supabase.com/dashboard,https://supabase.com/docs/guides/auth
+Science / Space,NASA,Space and Earth data,API Key,https://api.nasa.gov/,https://api.nasa.gov/
+Science / Space,SpaceX,Launch and rocket data,None,https://github.com/r-spacex/SpaceX-API,https://github.com/r-spacex/SpaceX-API
+Science / Space,USGS Earthquake,Earthquake feeds,None,https://earthquake.usgs.gov/fdsnws/event/1/,https://earthquake.usgs.gov/
+Science / Space,OpenAQ,Air quality measurements,None,https://docs.openaq.org/,https://openaq.org/
+Science / Space,Wikidata,Structured knowledge graph,None,https://www.wikidata.org/wiki/Wikidata:Data_access,https://www.wikidata.org/
+Entertainment,Jikan,MyAnimeList API,None,https://jikan.moe/,https://docs.api.jikan.moe/
+Entertainment,YouTube Data API,Video metadata and search,API Key,https://console.cloud.google.com/apis/credentials,https://developers.google.com/youtube/v3
+Utility,Random User,Random profile data,None,https://randomuser.me/,https://randomuser.me/documentation
+Utility,DiceBear,Avatar generation,None,https://www.dicebear.com/,https://www.dicebear.com/how-to-use/http-api/
+Utility,JSONPlaceholder,Fake REST API,None,https://jsonplaceholder.typicode.com/,https://jsonplaceholder.typicode.com/
+Utility,DummyJSON,Mock REST data,None,https://dummyjson.com/,https://dummyjson.com/docs
+Utility,HTTPBin,HTTP request testing,None,https://httpbin.org/,https://httpbin.org/
+Utility,Public APIs Directory API,Searchable public API catalog,None,https://api.publicapis.org/entries,https://github.com/davemachado/public-api
