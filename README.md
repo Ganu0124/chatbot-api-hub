@@ -1,483 +1,284 @@
 🤖 ChatBot API Hub
 
-<p align="center">
-  <img src="assets/chatbot-api-hub.gif" alt="Animated ChatBot API Hub banner" width="100%">
-</p>
+<p align="center"><img src="assets/chatbot-api-hub.gif" alt="ChatBot API Hub" width="100%"></p>
+
+<p align="center"><strong>A complete chatbot-focused API directory with direct access pages, authentication details, and documentation links.</strong></p>
 
 <p align="center">
-  <strong>A visual, developer-first directory of 240+ free and free-tier APIs for chatbots, AI agents, RAG, automation, voice apps, and modern web projects.</strong>
+<img src="https://img.shields.io/badge/APIs-240%2B-00E5FF?style=for-the-badge">
+<img src="https://img.shields.io/badge/Categories-31%2B-8B5CF6?style=for-the-badge">
+<img src="https://img.shields.io/badge/Public%20%2F%20No--Key-74-34D399?style=for-the-badge">
+<img src="https://img.shields.io/badge/Key%20%2F%20Token%20%2F%20OAuth-166-FF4FD8?style=for-the-badge">
 </p>
 
-<p align="center">
-  <a href="#-api-directory">API Directory</a> ·
-  <a href="#-quick-key-access">Quick Key Access</a> ·
-  <a href="#-chatbot-architecture">Architecture</a> ·
-  <a href="#-contribute">Contribute</a>
-</p>
+📌 What this repository contains
 
-<p align="center">
-  <img src="https://img.shields.io/badge/APIs-240%2B-00E5FF?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Categories-31%2B-8B5CF6?style=for-the-badge">
-  <img src="https://img.shields.io/badge/No--Key-74-34D399?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Key%20%2F%20Token-166-FF4FD8?style=for-the-badge">
-</p>
+This README contains 240+ API entries across 31 categories.
+Each row gives you the API name, purpose, authentication method, direct access page, and official documentation.
 
-✨ What is this?
+Important: this repository does not contain or publish real secret API keys. Use the Access link in each row to create your own credential when the provider requires one.
 
-This repository collects APIs you can plug into a chatbot or AI agent.
+Free-tier limits, credits, eligibility, pricing, and authentication rules vary by provider. Check the linked provider page before using an API in a project.
 
-It follows the directory idea used by the Public APIs project, but organizes the collection around chatbot tools, RAG, agents, voice, data, automation, and application backends. The Public APIs project uses fields such as API, Description, Auth, HTTPS, and CORS, and it is community-curated.
+⚡ Quick navigation
 
-Use the links to open the provider, create your own credential when required, read the documentation, and connect the API to your application.
+Category
 
-🔐 This repository never publishes private API keys. It provides public signup/access links for creating your own credentials.
+Count
 
-🎯 Why this exists
+Jump
 
-SEARCH FOR API
-      ↓
-CHECK AUTH
-      ↓
-OPEN KEY / ACCESS PAGE
-      ↓
-READ DOCS
-      ↓
-TEST ENDPOINT
-      ↓
-CONNECT AS A CHATBOT TOOL
-      ↓
-SHIP
-
-📊 Directory snapshot
-
-Metric
-
-Current
-
-API entries
-
-240+
-
-Categories
-
-31+
-
-No-key / public access
-
-74
-
-Key / token / OAuth APIs
-
-166
-
-Chatbot-ready focus APIs
-
-25
-
-Animated GitHub header
-
-Yes
-
-Direct access links
-
-Yes
-
-Documentation links
-
-Yes
-
-🧠 Chatbot architecture
-
-                         ┌─────────────────────┐
-                         │       USER          │
-                         │  Text / Voice / UI  │
-                         └──────────┬──────────┘
-                                    │
-                                    ▼
-                         ┌─────────────────────┐
-                         │   CHATBOT / AGENT   │
-                         │  LLM + memory +     │
-                         │  tool routing       │
-                         └──────────┬──────────┘
-                                    │
-         ┌──────────────────────────┼──────────────────────────┐
-         ▼                          ▼                          ▼
-  ┌─────────────┐           ┌─────────────┐            ┌─────────────┐
-  │     LLM     │           │   KNOWLEDGE │            │    TOOLS    │
-  │ Groq        │           │ Tavily      │            │ Weather     │
-  │ Mistral     │           │ arXiv       │            │ Maps        │
-  │ HuggingFace │           │ OpenAlex    │            │ News        │
-  │ OpenRouter  │           │ Wikipedia   │            │ Finance     │
-  └──────┬──────┘           └──────┬──────┘            │ Email       │
-         │                         │                    │ Messaging   │
-         └──────────────┬──────────┘                    │ Payments    │
-                        ▼                               └──────┬──────┘
-                ┌───────────────┐                             │
-                │ RAG / MEMORY  │                             │
-                │ Vector DB     │                             │
-                │ Documents     │                             │
-                └──────┬────────┘                             │
-                       └──────────────────┬────────────────────┘
-                                          ▼
-                                ┌──────────────────┐
-                                │ YOUR APPLICATION │
-                                │ React / Next.js  │
-                                │ FastAPI / Node   │
-                                │ Supabase / DB    │
-                                └──────────────────┘
-
-🔥 Quick Key Access
-
-These are common starting points for an AI chatbot stack:
-
-#
-
-API
-
-Purpose
-
-Auth
-
-Get Access
-
-Docs
-
-1
-
-Groq
-
-Fast LLM inference
-
-API Key
-
-Open
-
-Docs
-
-2
-
-Hugging Face
-
-Open-source models and inference
-
-Token
-
-Open
-
-Docs
-
-3
-
-OpenRouter
-
-Access multiple LLM providers
-
-API Key
-
-Open
-
-Docs
-
-4
-
-Mistral AI
-
-LLM and embeddings
-
-API Key
-
-Open
-
-Docs
-
-5
-
-Cohere
-
-Chat, embeddings and RAG
-
-API Key
-
-Open
-
-Docs
-
-6
-
-Tavily
-
-AI web search
-
-API Key
-
-Open
-
-Docs
-
-7
-
-Brave Search
-
-Web search
-
-API Key
-
-Open
-
-Docs
-
-8
-
-Serper
-
-Google search data
-
-API Key
-
-Open
-
-Docs
-
-9
-
-Open-Meteo
-
-Weather forecasts
-
-None
-
-Open
-
-Docs
-
-10
-
-OpenWeather
-
-Weather data
-
-API Key
-
-Open
-
-Docs
-
-11
-
-NewsAPI
-
-News search
-
-API Key
-
-Open
-
-Docs
-
-12
-
-Pexels
-
-Stock image search
-
-API Key
-
-Open
-
-Docs
-
-13
-
-Unsplash
-
-Image search
-
-Access Key
-
-Open
-
-Docs
-
-14
-
-Deepgram
-
-Speech-to-text and audio AI
-
-API Key
-
-Open
-
-Docs
-
-15
-
-ElevenLabs
-
-Text-to-speech
-
-API Key
-
-Open
-
-Docs
-
-16
-
-Telegram Bot API
-
-Telegram chatbots
-
-Bot Token
-
-Open
-
-Docs
-
-17
-
-Razorpay
-
-Indian payments
-
-API Key
-
-Open
-
-Docs
-
-18
-
-Stripe
-
-Payments and billing
-
-API Key
-
-Open
-
-Docs
-
-19
-
-Supabase
-
-PostgreSQL, auth and storage
-
-API Key
-
-Open
-
-Docs
+AI & LLM
 
 20
 
-Pinecone
+Open
 
-Vector database for RAG
+Search & Web
+
+17
+
+Open
+
+Research & Knowledge
+
+7
+
+Open
+
+Weather
+
+6
+
+Open
+
+Maps & Location
+
+14
+
+Open
+
+News
+
+11
+
+Open
+
+Finance
+
+14
+
+Open
+
+Images & Media
+
+7
+
+Open
+
+Speech & Voice
+
+10
+
+Open
+
+Translation & NLP
+
+5
+
+Open
+
+Cybersecurity
+
+7
+
+Open
+
+Healthcare
+
+4
+
+Open
+
+Travel
+
+5
+
+Open
+
+Sports
+
+4
+
+Open
+
+Communication
+
+5
+
+Open
+
+Email
+
+4
+
+Open
+
+Payments
+
+4
+
+Open
+
+Database
+
+4
+
+Open
+
+Developer
+
+8
+
+Open
+
+Science & Space
+
+9
+
+Open
+
+Entertainment
+
+6
+
+Open
+
+Utility
+
+13
+
+Open
+
+RAG & Vector DB
+
+10
+
+Open
+
+OCR / Documents
+
+6
+
+Open
+
+Vision
+
+6
+
+Open
+
+Weather & Environment
+
+5
+
+Open
+
+E-commerce
+
+6
+
+Open
+
+Programming
+
+7
+
+Open
+
+Email & Messaging
+
+5
+
+Open
+
+Social & Bots
+
+6
+
+Open
+
+Authentication
+
+5
+
+Open
+
+🧠 Chatbot architecture
+
+User
+  ↓
+Chat UI
+  ↓
+AI Chatbot / Agent
+  ├── LLM
+  ├── Web Search
+  ├── RAG / Vector DB
+  ├── Weather
+  ├── Maps
+  ├── News
+  ├── Finance
+  ├── Vision
+  ├── Speech / Voice
+  ├── Email / Messaging
+  ├── Payments
+  └── Database
+  ↓
+Final response
+
+🔑 Authentication legend
+
+Authentication
+
+Meaning
+
+None
+
+Public API or no key listed
 
 API Key
 
-Open
+Create your own API key from the provider
 
-Docs
+Token
 
-21
+Create an access token
 
-Qdrant Cloud
+API Token
 
-Vector search database
+Create an API token
 
-API Key
+OAuth
 
-Open
+Use the provider OAuth flow
 
-Docs
+Client ID/Secret
 
-22
+Create application credentials
 
-Firecrawl
+Project Key
 
-Web scraping for AI agents
-
-API Key
-
-Open
-
-Docs
-
-23
-
-Google Maps Platform
-
-Maps, geocoding and places
-
-API Key
-
-Open
-
-Docs
-
-24
-
-GitHub REST API
-
-Repositories and code
-
-Token optional
-
-Open
-
-Docs
-
-25
-
-Telegram Bot API
-
-Telegram chatbot interface
+Project-scoped credential
 
 Bot Token
 
-Open
+Bot credential for messaging platforms
 
-Docs
+📚 Complete API table
 
-🧩 Recommended tool stack
+AI & LLM
 
-BRAIN
-Groq / Mistral / Hugging Face / OpenRouter
-        │
-        ├── WEB SEARCH
-        │   Tavily / Brave / Serper / Exa
-        │
-        ├── RAG
-        │   Pinecone / Qdrant / Weaviate / Chroma
-        │
-        ├── WEB EXTRACTION
-        │   Firecrawl / Jina / Unstructured
-        │
-        ├── VOICE
-        │   Deepgram / AssemblyAI / ElevenLabs
-        │
-        ├── VISION
-        │   Roboflow / Clarifai
-        │
-        ├── TOOLS
-        │   Weather / Maps / News / Finance
-        │
-        ├── COMMUNICATION
-        │   Telegram / Discord / Slack
-        │
-        └── BACKEND
-            Supabase / Firebase / Appwrite
-
-🗂️ Categories
-
-AI / LLM\n- Authentication\n- Communication\n- Cybersecurity\n- Database / Backend\n- Developer\n- E-commerce\n- Email\n- Email / Messaging\n- Entertainment\n- Finance\n- Healthcare\n- Images / Media\n- Maps / Location\n- News\n- OCR / Documents\n- Payments\n- Programming\n- RAG / Data\n- RAG / Research\n- Science / Space\n- Search / Web\n- Social / Bots\n- Speech / Audio\n- Sports\n- Translation / NLP\n- Travel\n- Utility\n- Vision\n- Weather\n- Weather / Environment\n
-
-📚 API Directory
-
-AI / LLM {#ai-llm}
+<a id="ai-llm"></a>
 
 #
 
@@ -485,11 +286,11 @@ API
 
 Purpose
 
-Auth
+Authentication
 
-Get Access
+Get API Key / Access
 
-Docs
+Documentation
 
 1
 
@@ -731,7 +532,9 @@ Open
 
 Docs
 
-Authentication {#authentication}
+Search & Web
+
+<a id="search-web"></a>
 
 #
 
@@ -739,2009 +542,13 @@ API
 
 Purpose
 
-Auth
+Authentication
 
-Get Access
+Get API Key / Access
 
-Docs
+Documentation
 
-1
-
-Clerk
-
-Authentication and user management
-
-API Key
-
-Open
-
-Docs
-
-2
-
-Auth0
-
-Authentication and authorization
-
-Domain / Client ID
-
-Open
-
-Docs
-
-3
-
-Stytch
-
-Authentication APIs
-
-API Keys
-
-Open
-
-Docs
-
-4
-
-Kinde
-
-Authentication and identity
-
-OAuth
-
-Open
-
-Docs
-
-5
-
-Supabase Auth
-
-Authentication and sessions
-
-Project Key
-
-Open
-
-Docs
-
-Communication {#communication}
-
-#
-
-API
-
-Purpose
-
-Auth
-
-Get Access
-
-Docs
-
-1
-
-Telegram Bot API
-
-Telegram chatbots
-
-Bot Token
-
-Open
-
-Docs
-
-2
-
-Discord
-
-Discord bots
-
-Bot Token
-
-Open
-
-Docs
-
-3
-
-Slack
-
-Workspace bots
-
-OAuth
-
-Open
-
-Docs
-
-4
-
-Twilio
-
-SMS and communication
-
-API Key
-
-Open
-
-Docs
-
-5
-
-WhatsApp Cloud API
-
-WhatsApp messaging
-
-Token
-
-Open
-
-Docs
-
-Cybersecurity {#cybersecurity}
-
-#
-
-API
-
-Purpose
-
-Auth
-
-Get Access
-
-Docs
-
-1
-
-VirusTotal
-
-File and URL intelligence
-
-API Key
-
-Open
-
-Docs
-
-2
-
-AbuseIPDB
-
-IP reputation
-
-API Key
-
-Open
-
-Docs
-
-3
-
-Shodan
-
-Internet intelligence
-
-API Key
-
-Open
-
-Docs
-
-4
-
-URLScan
-
-URL analysis
-
-API Key
-
-Open
-
-Docs
-
-5
-
-NVD
-
-Vulnerability database
-
-API Key optional
-
-Open
-
-Docs
-
-6
-
-CISA KEV
-
-Known exploited vulnerabilities
-
-None
-
-Open
-
-Docs
-
-7
-
-URLhaus
-
-Malicious URL intelligence
-
-None
-
-Open
-
-Docs
-
-Database / Backend {#database-backend}
-
-#
-
-API
-
-Purpose
-
-Auth
-
-Get Access
-
-Docs
-
-1
-
-Supabase
-
-PostgreSQL, auth and storage
-
-API Key
-
-Open
-
-Docs
-
-2
-
-Firebase
-
-Database, auth and storage
-
-Config/API
-
-Open
-
-Docs
-
-3
-
-Appwrite
-
-Backend services
-
-API Key
-
-Open
-
-Docs
-
-4
-
-Convex
-
-Backend database
-
-Project credentials
-
-Open
-
-Docs
-
-Developer {#developer}
-
-#
-
-API
-
-Purpose
-
-Auth
-
-Get Access
-
-Docs
-
-1
-
-GitHub
-
-Repositories and developer data
-
-Token
-
-Open
-
-Docs
-
-2
-
-GitLab
-
-Repositories and CI/CD
-
-Token
-
-Open
-
-Docs
-
-3
-
-npm Registry
-
-Package metadata
-
-None
-
-Open
-
-Docs
-
-4
-
-PyPI
-
-Python package metadata
-
-None
-
-Open
-
-Docs
-
-5
-
-JSONPlaceholder
-
-Fake REST data
-
-None
-
-Open
-
-Docs
-
-6
-
-DummyJSON
-
-Fake REST data
-
-None
-
-Open
-
-Docs
-
-7
-
-httpbin
-
-HTTP testing
-
-None
-
-Open
-
-Docs
-
-8
-
-Random User
-
-Random user profiles
-
-None
-
-Open
-
-Docs
-
-E-commerce {#e-commerce}
-
-#
-
-API
-
-Purpose
-
-Auth
-
-Get Access
-
-Docs
-
-1
-
-Fake Store API
-
-Fake products and carts
-
-None
-
-Open
-
-Docs
-
-2
-
-DummyJSON Products
-
-Mock products data
-
-None
-
-Open
-
-Docs
-
-3
-
-Shopify Admin API
-
-Store data and operations
-
-OAuth
-
-Open
-
-Docs
-
-4
-
-WooCommerce REST API
-
-Products and orders
-
-Consumer Key/Secret
-
-Open
-
-Docs
-
-5
-
-Printful API
-
-Print-on-demand catalog
-
-API Key
-
-Open
-
-Docs
-
-6
-
-eBay APIs
-
-Marketplace data
-
-OAuth
-
-Open
-
-Docs
-
-Email {#email}
-
-#
-
-API
-
-Purpose
-
-Auth
-
-Get Access
-
-Docs
-
-1
-
-Resend
-
-Transactional email
-
-API Key
-
-Open
-
-Docs
-
-2
-
-Brevo
-
-Email and messaging
-
-API Key
-
-Open
-
-Docs
-
-3
-
-SendGrid
-
-Transactional email
-
-API Key
-
-Open
-
-Docs
-
-4
-
-Mailgun
-
-Email API
-
-API Key
-
-Open
-
-Docs
-
-Email / Messaging {#email-messaging}
-
-#
-
-API
-
-Purpose
-
-Auth
-
-Get Access
-
-Docs
-
-1
-
-EmailJS
-
-Client-side email sending
-
-Public Key
-
-Open
-
-Docs
-
-2
-
-Mailjet
-
-Email API
-
-API Key
-
-Open
-
-Docs
-
-3
-
-Postmark
-
-Transactional email
-
-Server Token
-
-Open
-
-Docs
-
-4
-
-EmailOctopus
-
-Email marketing API
-
-API Key
-
-Open
-
-Docs
-
-5
-
-OneSignal
-
-Push notifications
-
-App ID / Key
-
-Open
-
-Docs
-
-Entertainment {#entertainment}
-
-#
-
-API
-
-Purpose
-
-Auth
-
-Get Access
-
-Docs
-
-1
-
-TMDB
-
-Movies and TV
-
-API Key
-
-Open
-
-Docs
-
-2
-
-OMDb
-
-Movie information
-
-API Key
-
-Open
-
-Docs
-
-3
-
-TVMaze
-
-TV show data
-
-None
-
-Open
-
-Docs
-
-4
-
-Spotify
-
-Music data
-
-OAuth
-
-Open
-
-Docs
-
-5
-
-Jikan
-
-MyAnimeList API
-
-None
-
-Open
-
-Docs
-
-6
-
-YouTube Data API
-
-Video metadata and search
-
-API Key
-
-Open
-
-Docs
-
-Finance {#finance}
-
-#
-
-API
-
-Purpose
-
-Auth
-
-Get Access
-
-Docs
-
-1
-
-Alpha Vantage
-
-Stocks and forex
-
-API Key
-
-Open
-
-Docs
-
-2
-
-Finnhub
-
-Market data
-
-API Key
-
-Open
-
-Docs
-
-3
-
-CoinGecko
-
-Crypto data
-
-API Key
-
-Open
-
-Docs
-
-4
-
-CoinCap
-
-Crypto market data
-
-API Key optional
-
-Open
-
-Docs
-
-5
-
-Frankfurter
-
-Currency exchange
-
-None
-
-Open
-
-Docs
-
-6
-
-FRED
-
-Economic indicators
-
-API Key
-
-Open
-
-Docs
-
-7
-
-Twelve Data
-
-Stocks, forex and crypto
-
-API Key
-
-Open
-
-Docs
-
-8
-
-World Bank
-
-Economic and development data
-
-None
-
-Open
-
-Docs
-
-9
-
-Marketstack
-
-Stocks and market data
-
-API Key
-
-Open
-
-Docs
-
-10
-
-Polygon
-
-Market data
-
-API Key
-
-Open
-
-Docs
-
-11
-
-Tink
-
-Financial account connectivity
-
-API Key
-
-Open
-
-Docs
-
-12
-
-Plaid
-
-Financial data connectivity
-
-Client ID/Secret
-
-Open
-
-Docs
-
-13
-
-Teller
-
-Open banking API
-
-Application
-
-Open
-
-Docs
-
-14
-
-ExchangeRate.host
-
-Currency conversion
-
-None / Key
-
-Open
-
-Docs
-
-Healthcare {#healthcare}
-
-#
-
-API
-
-Purpose
-
-Auth
-
-Get Access
-
-Docs
-
-1
-
-OpenFDA
-
-FDA public data
-
-None/API Key
-
-Open
-
-Docs
-
-2
-
-ClinicalTrials.gov
-
-Clinical trials
-
-None
-
-Open
-
-Docs
-
-3
-
-RxNorm
-
-Medication terminology
-
-None
-
-Open
-
-Docs
-
-4
-
-NLM APIs
-
-Biomedical data
-
-None
-
-Open
-
-Docs
-
-Images / Media {#images-media}
-
-#
-
-API
-
-Purpose
-
-Auth
-
-Get Access
-
-Docs
-
-1
-
-Pexels
-
-Stock image search
-
-API Key
-
-Open
-
-Docs
-
-2
-
-Unsplash
-
-Image search
-
-Access Key
-
-Open
-
-Docs
-
-3
-
-Pixabay
-
-Images and videos
-
-API Key
-
-Open
-
-Docs
-
-4
-
-Giphy
-
-GIF search
-
-API Key
-
-Open
-
-Docs
-
-5
-
-Tenor
-
-GIF search
-
-API Key
-
-Open
-
-Docs
-
-6
-
-DiceBear
-
-Avatar generation
-
-None
-
-Open
-
-Docs
-
-7
-
-Lorem Picsum
-
-Placeholder images
-
-None
-
-Open
-
-Docs
-
-Maps / Location {#maps-location}
-
-#
-
-API
-
-Purpose
-
-Auth
-
-Get Access
-
-Docs
-
-1
-
-OpenStreetMap
-
-Open map data
-
-None
-
-Open
-
-Docs
-
-2
-
-Nominatim
-
-Geocoding
-
-None
-
-Open
-
-Docs
-
-3
-
-Mapbox
-
-Maps and navigation
-
-Access Token
-
-Open
-
-Docs
-
-4
-
-OpenRouteService
-
-Routing and directions
-
-API Key
-
-Open
-
-Docs
-
-5
-
-Geoapify
-
-Geocoding and places
-
-API Key
-
-Open
-
-Docs
-
-6
-
-GeoNames
-
-Geographic data
-
-Username
-
-Open
-
-Docs
-
-7
-
-IPinfo
-
-IP geolocation
-
-Token
-
-Open
-
-Docs
-
-8
-
-IP-API
-
-IP geolocation
-
-None
-
-Open
-
-Docs
-
-9
-
-Google Maps Platform
-
-Maps, geocoding and places
-
-API Key
-
-Open
-
-Docs
-
-10
-
-HERE
-
-Maps and location services
-
-API Key
-
-Open
-
-Docs
-
-11
-
-Radar
-
-Geofencing and maps
-
-API Key
-
-Open
-
-Docs
-
-12
-
-LocationIQ
-
-Geocoding and maps
-
-API Key
-
-Open
-
-Docs
-
-13
-
-Bing Maps
-
-Maps and geocoding
-
-API Key
-
-Open
-
-Docs
-
-14
-
-GeoJS
-
-IP geolocation
-
-None
-
-Open
-
-Docs
-
-News {#news}
-
-#
-
-API
-
-Purpose
-
-Auth
-
-Get Access
-
-Docs
-
-1
-
-NewsAPI
-
-News search
-
-API Key
-
-Open
-
-Docs
-
-2
-
-GNews
-
-News search
-
-API Key
-
-Open
-
-Docs
-
-3
-
-TheNewsAPI
-
-News feeds
-
-API Key
-
-Open
-
-Docs
-
-4
-
-Guardian API
-
-News articles
-
-API Key
-
-Open
-
-Docs
-
-5
-
-New York Times API
-
-News and archives
-
-API Key
-
-Open
-
-Docs
-
-6
-
-Currents API
-
-News search
-
-API Key
-
-Open
-
-Docs
-
-7
-
-NewsData.io
-
-Global news
-
-API Key
-
-Open
-
-Docs
-
-8
-
-Mediastack
-
-News API
-
-API Key
-
-Open
-
-Docs
-
-9
-
-NYTimes API
-
-News and archive data
-
-API Key
-
-Open
-
-Docs
-
-10
-
-GDELT
-
-Global event and news data
-
-None
-
-Open
-
-Docs
-
-11
-
-The Guardian API
-
-News articles
-
-API Key
-
-Open
-
-Docs
-
-OCR / Documents {#ocr-documents}
-
-#
-
-API
-
-Purpose
-
-Auth
-
-Get Access
-
-Docs
-
-1
-
-OCR.Space
-
-OCR API
-
-API Key
-
-Open
-
-Docs
-
-2
-
-Nanonets
-
-OCR and document processing
-
-API Key
-
-Open
-
-Docs
-
-3
-
-Mindee
-
-Document parsing
-
-API Key
-
-Open
-
-Docs
-
-4
-
-Cloudmersive
-
-Document and OCR APIs
-
-API Key
-
-Open
-
-Docs
-
-5
-
-PDF.co
-
-PDF processing
-
-API Key
-
-Open
-
-Docs
-
-6
-
-ConvertAPI
-
-Document conversion
-
-API Key
-
-Open
-
-Docs
-
-Payments {#payments}
-
-#
-
-API
-
-Purpose
-
-Auth
-
-Get Access
-
-Docs
-
-1
-
-Razorpay
-
-Indian payments
-
-API Key
-
-Open
-
-Docs
-
-2
-
-Stripe
-
-Payments and billing
-
-API Key
-
-Open
-
-Docs
-
-3
-
-Cashfree
-
-Indian payments
-
-API Key
-
-Open
-
-Docs
-
-4
-
-PayPal
-
-Payments
-
-Client ID/Secret
-
-Open
-
-Docs
-
-Programming {#programming}
-
-#
-
-API
-
-Purpose
-
-Auth
-
-Get Access
-
-Docs
-
-1
-
-Judge0
-
-Online code execution
-
-API Key
-
-Open
-
-Docs
-
-2
-
-Piston
-
-Code execution API
-
-None
-
-Open
-
-Docs
-
-3
-
-GitHub REST API
-
-Repositories and code
-
-Token optional
-
-Open
-
-Docs
-
-4
-
-GitHub GraphQL API
-
-Graph data for GitHub
-
-Token
-
-Open
-
-Docs
-
-5
-
-GitLab API
-
-Repositories and CI/CD
-
-Token
-
-Open
-
-Docs
-
-6
-
-Codeforces API
-
-Contest and problem data
-
-API Key optional
-
-Open
-
-Docs
-
-7
-
-HackerRank
-
-Coding platform integrations
-
-API / partner
-
-Open
-
-Docs
-
-RAG / Data {#rag-data}
-
-#
-
-API
-
-Purpose
-
-Auth
-
-Get Access
-
-Docs
-
-1
-
-Pinecone
-
-Vector database for RAG
-
-API Key
-
-Open
-
-Docs
-
-2
-
-Qdrant Cloud
-
-Vector search database
-
-API Key
-
-Open
-
-Docs
-
-3
-
-Weaviate Cloud
-
-Vector database
-
-API Key
-
-Open
-
-Docs
-
-4
-
-Milvus
-
-Vector database
-
-None / Token
-
-Open
-
-Docs
-
-5
-
-Chroma
-
-Open-source vector database
-
-None
-
-Open
-
-Docs
-
-6
-
-LanceDB
-
-Embedded vector database
-
-None
-
-Open
-
-Docs
-
-7
-
-Supabase Vector
-
-Postgres vector search
-
-Project Key
-
-Open
-
-Docs
-
-8
-
-Neo4j Aura
-
-Graph database for knowledge graphs
-
-Login
-
-Open
-
-Docs
-
-9
-
-Unstructured
-
-Document processing for RAG
-
-API Key
-
-Open
-
-Docs
-
-10
-
-Firecrawl
-
-Web scraping for AI agents
-
-API Key
-
-Open
-
-Docs
-
-RAG / Research {#rag-research}
-
-#
-
-API
-
-Purpose
-
-Auth
-
-Get Access
-
-Docs
-
-1
-
-arXiv
-
-Research papers
-
-None
-
-Open
-
-Docs
-
-2
-
-OpenAlex
-
-Academic research graph
-
-None
-
-Open
-
-Docs
-
-3
-
-Crossref
-
-Publication metadata
-
-None
-
-Open
-
-Docs
-
-4
-
-Semantic Scholar
-
-Academic search
-
-API Key optional
-
-Open
-
-Docs
-
-5
-
-PubMed
-
-Biomedical literature
-
-None
-
-Open
-
-Docs
-
-6
-
-Open Library
-
-Books and metadata
-
-None
-
-Open
-
-Docs
-
-7
-
-Wikidata
-
-Knowledge graph
-
-None
-
-Open
-
-Docs
-
-Science / Space {#science-space}
-
-#
-
-API
-
-Purpose
-
-Auth
-
-Get Access
-
-Docs
-
-1
-
-NASA APIs
-
-Space and Earth data
-
-API Key
-
-Open
-
-Docs
-
-2
-
-SpaceX API
-
-Launch and rocket data
-
-None
-
-Open
-
-Docs
-
-3
-
-USGS
-
-Earthquake and Earth data
-
-None
-
-Open
-
-Docs
-
-4
-
-GBIF
-
-Biodiversity data
-
-None
-
-Open
-
-Docs
-
-5
-
-NASA
-
-Space and Earth data
-
-API Key
-
-Open
-
-Docs
-
-6
-
-SpaceX
-
-Launch and rocket data
-
-None
-
-Open
-
-Docs
-
-7
-
-USGS Earthquake
-
-Earthquake feeds
-
-None
-
-Open
-
-Docs
-
-8
-
-OpenAQ
-
-Air quality measurements
-
-None
-
-Open
-
-Docs
-
-9
-
-Wikidata
-
-Structured knowledge graph
-
-None
-
-Open
-
-Docs
-
-Search / Web {#search-web}
-
-#
-
-API
-
-Purpose
-
-Auth
-
-Get Access
-
-Docs
-
-1
+21
 
 Tavily
 
@@ -2753,7 +560,7 @@ Open
 
 Docs
 
-2
+22
 
 Brave Search
 
@@ -2765,7 +572,7 @@ Open
 
 Docs
 
-3
+23
 
 Serper
 
@@ -2777,7 +584,7 @@ Open
 
 Docs
 
-4
+24
 
 Wikipedia
 
@@ -2789,7 +596,7 @@ Open
 
 Docs
 
-5
+25
 
 GDELT
 
@@ -2801,7 +608,7 @@ Open
 
 Docs
 
-6
+26
 
 Internet Archive
 
@@ -2813,7 +620,7 @@ Open
 
 Docs
 
-7
+27
 
 Hacker News
 
@@ -2825,7 +632,7 @@ Open
 
 Docs
 
-8
+28
 
 Reddit
 
@@ -2837,7 +644,7 @@ Open
 
 Docs
 
-9
+29
 
 Exa
 
@@ -2849,7 +656,7 @@ Open
 
 Docs
 
-10
+30
 
 Jina Reader
 
@@ -2861,7 +668,7 @@ Open
 
 Docs
 
-11
+31
 
 Jina Search
 
@@ -2873,7 +680,7 @@ Open
 
 Docs
 
-12
+32
 
 SearXNG
 
@@ -2885,7 +692,7 @@ Open
 
 Docs
 
-13
+33
 
 DuckDuckGo Instant Answer
 
@@ -2897,7 +704,7 @@ Open
 
 Docs
 
-14
+34
 
 Google Custom Search
 
@@ -2909,7 +716,7 @@ Open
 
 Docs
 
-15
+35
 
 Common Crawl
 
@@ -2921,7 +728,7 @@ Open
 
 Docs
 
-16
+36
 
 Mediastack
 
@@ -2933,7 +740,7 @@ Open
 
 Docs
 
-17
+37
 
 SerpApi
 
@@ -2945,7 +752,9 @@ Open
 
 Docs
 
-Social / Bots {#social-bots}
+Research & Knowledge
+
+<a id="research-knowledge"></a>
 
 #
 
@@ -2953,151 +762,17 @@ API
 
 Purpose
 
-Auth
+Authentication
 
-Get Access
+Get API Key / Access
 
-Docs
+Documentation
 
-1
+38
 
-Telegram Bot API
+arXiv
 
-Telegram chatbot interface
-
-Bot Token
-
-Open
-
-Docs
-
-2
-
-Discord Developer API
-
-Bots and applications
-
-Bot Token
-
-Open
-
-Docs
-
-3
-
-Slack Platform
-
-Workspace bots
-
-OAuth
-
-Open
-
-Docs
-
-4
-
-Twitch API
-
-Streaming and creator data
-
-OAuth / Client ID
-
-Open
-
-Docs
-
-5
-
-Bluesky API
-
-Social graph and posts
-
-Session
-
-Open
-
-Docs
-
-6
-
-Mastodon API
-
-Social platform API
-
-OAuth
-
-Open
-
-Docs
-
-Speech / Audio {#speech-audio}
-
-#
-
-API
-
-Purpose
-
-Auth
-
-Get Access
-
-Docs
-
-1
-
-Deepgram
-
-Speech-to-text and audio AI
-
-API Key
-
-Open
-
-Docs
-
-2
-
-AssemblyAI
-
-Speech-to-text
-
-API Key
-
-Open
-
-Docs
-
-3
-
-ElevenLabs
-
-Text-to-speech
-
-API Key
-
-Open
-
-Docs
-
-4
-
-Whisper
-
-Speech recognition
-
-Local/Open-source
-
-Open
-
-Docs
-
-5
-
-Piper TTS
-
-Local text-to-speech
+Research papers
 
 None
 
@@ -3105,85 +780,35 @@ Open
 
 Docs
 
-6
+39
 
-Google Speech-to-Text
+OpenAlex
 
-Speech recognition
+Academic research graph
 
-API Key
-
-Open
-
-Docs
-
-7
-
-Azure Speech
-
-Speech and voice services
-
-API Key
+None
 
 Open
 
 Docs
 
-8
+40
 
-PlayHT
+Crossref
 
-Text-to-speech
+Publication metadata
 
-API Key
-
-Open
-
-Docs
-
-9
-
-Cartesia
-
-Low-latency voice AI
-
-API Key
+None
 
 Open
 
 Docs
 
-10
+41
 
-Picovoice
+Semantic Scholar
 
-On-device voice AI
-
-Access Key
-
-Open
-
-Docs
-
-Sports {#sports}
-
-#
-
-API
-
-Purpose
-
-Auth
-
-Get Access
-
-Docs
-
-1
-
-TheSportsDB
-
-Sports data
+Academic search
 
 API Key optional
 
@@ -3191,35 +816,11 @@ Open
 
 Docs
 
-2
+42
 
-API-Football
+PubMed
 
-Football data
-
-API Key
-
-Open
-
-Docs
-
-3
-
-balldontlie
-
-Basketball data
-
-API Key
-
-Open
-
-Docs
-
-4
-
-Jolpica F1
-
-Formula 1 data
+Biomedical literature
 
 None
 
@@ -3227,7 +828,33 @@ Open
 
 Docs
 
-Translation / NLP {#translation-nlp}
+43
+
+Open Library
+
+Books and metadata
+
+None
+
+Open
+
+Docs
+
+44
+
+Wikidata
+
+Knowledge graph
+
+None
+
+Open
+
+Docs
+
+Weather
+
+<a id="weather"></a>
 
 #
 
@@ -3235,417 +862,13 @@ API
 
 Purpose
 
-Auth
+Authentication
 
-Get Access
+Get API Key / Access
 
-Docs
+Documentation
 
-1
-
-LibreTranslate
-
-Machine translation
-
-API Key optional
-
-Open
-
-Docs
-
-2
-
-DeepL
-
-Translation
-
-API Key
-
-Open
-
-Docs
-
-3
-
-LanguageTool
-
-Grammar checking
-
-API Key optional
-
-Open
-
-Docs
-
-4
-
-Datamuse
-
-Word relationships
-
-None
-
-Open
-
-Docs
-
-5
-
-Free Dictionary
-
-Definitions
-
-None
-
-Open
-
-Docs
-
-Travel {#travel}
-
-#
-
-API
-
-Purpose
-
-Auth
-
-Get Access
-
-Docs
-
-1
-
-Amadeus
-
-Flights and travel
-
-API Key
-
-Open
-
-Docs
-
-2
-
-AviationStack
-
-Flight data
-
-API Key
-
-Open
-
-Docs
-
-3
-
-OpenSky Network
-
-Aircraft tracking
-
-OAuth/None
-
-Open
-
-Docs
-
-4
-
-REST Countries
-
-Country information
-
-None
-
-Open
-
-Docs
-
-5
-
-OpenTripMap
-
-Tourist attractions
-
-API Key
-
-Open
-
-Docs
-
-Utility {#utility}
-
-#
-
-API
-
-Purpose
-
-Auth
-
-Get Access
-
-Docs
-
-1
-
-IPify
-
-Public IP address
-
-None
-
-Open
-
-Docs
-
-2
-
-QR Server
-
-QR code generation
-
-None
-
-Open
-
-Docs
-
-3
-
-Advice Slip
-
-Advice text
-
-None
-
-Open
-
-Docs
-
-4
-
-Numbers API
-
-Number facts
-
-None
-
-Open
-
-Docs
-
-5
-
-Agify
-
-Age prediction
-
-None
-
-Open
-
-Docs
-
-6
-
-Genderize
-
-Gender prediction
-
-None
-
-Open
-
-Docs
-
-7
-
-Nationalize
-
-Nationality prediction
-
-None
-
-Open
-
-Docs
-
-8
-
-Random User
-
-Random profile data
-
-None
-
-Open
-
-Docs
-
-9
-
-DiceBear
-
-Avatar generation
-
-None
-
-Open
-
-Docs
-
-10
-
-JSONPlaceholder
-
-Fake REST API
-
-None
-
-Open
-
-Docs
-
-11
-
-DummyJSON
-
-Mock REST data
-
-None
-
-Open
-
-Docs
-
-12
-
-HTTPBin
-
-HTTP request testing
-
-None
-
-Open
-
-Docs
-
-13
-
-Public APIs Directory API
-
-Searchable public API catalog
-
-None
-
-Open
-
-Docs
-
-Vision {#vision}
-
-#
-
-API
-
-Purpose
-
-Auth
-
-Get Access
-
-Docs
-
-1
-
-Roboflow
-
-Computer vision inference and datasets
-
-API Key
-
-Open
-
-Docs
-
-2
-
-Clarifai
-
-Vision and AI inference
-
-API Key
-
-Open
-
-Docs
-
-3
-
-Hugging Face Inference
-
-Computer vision and multimodal models
-
-Token
-
-Open
-
-Docs
-
-4
-
-Google Vision
-
-Image understanding
-
-API Key
-
-Open
-
-Docs
-
-5
-
-Azure Computer Vision
-
-Vision AI
-
-API Key
-
-Open
-
-Docs
-
-6
-
-AWS Rekognition
-
-Image and video analysis
-
-Access Key
-
-Open
-
-Docs
-
-Weather {#weather}
-
-#
-
-API
-
-Purpose
-
-Auth
-
-Get Access
-
-Docs
-
-1
+45
 
 Open-Meteo
 
@@ -3657,7 +880,7 @@ Open
 
 Docs
 
-2
+46
 
 OpenWeather
 
@@ -3669,7 +892,7 @@ Open
 
 Docs
 
-3
+47
 
 WeatherAPI
 
@@ -3681,7 +904,7 @@ Open
 
 Docs
 
-4
+48
 
 Weatherbit
 
@@ -3693,7 +916,7 @@ Open
 
 Docs
 
-5
+49
 
 OpenAQ
 
@@ -3705,7 +928,7 @@ Open
 
 Docs
 
-6
+50
 
 AQICN
 
@@ -3717,7 +940,9 @@ Open
 
 Docs
 
-Weather / Environment {#weather-environment}
+Maps & Location
+
+<a id="maps-location"></a>
 
 #
 
@@ -3725,13 +950,2221 @@ API
 
 Purpose
 
-Auth
+Authentication
 
-Get Access
+Get API Key / Access
+
+Documentation
+
+51
+
+OpenStreetMap
+
+Open map data
+
+None
+
+Open
 
 Docs
 
-1
+52
+
+Nominatim
+
+Geocoding
+
+None
+
+Open
+
+Docs
+
+53
+
+Mapbox
+
+Maps and navigation
+
+Access Token
+
+Open
+
+Docs
+
+54
+
+OpenRouteService
+
+Routing and directions
+
+API Key
+
+Open
+
+Docs
+
+55
+
+Geoapify
+
+Geocoding and places
+
+API Key
+
+Open
+
+Docs
+
+56
+
+GeoNames
+
+Geographic data
+
+Username
+
+Open
+
+Docs
+
+57
+
+IPinfo
+
+IP geolocation
+
+Token
+
+Open
+
+Docs
+
+58
+
+IP-API
+
+IP geolocation
+
+None
+
+Open
+
+Docs
+
+59
+
+Google Maps Platform
+
+Maps, geocoding and places
+
+API Key
+
+Open
+
+Docs
+
+60
+
+HERE
+
+Maps and location services
+
+API Key
+
+Open
+
+Docs
+
+61
+
+Radar
+
+Geofencing and maps
+
+API Key
+
+Open
+
+Docs
+
+62
+
+LocationIQ
+
+Geocoding and maps
+
+API Key
+
+Open
+
+Docs
+
+63
+
+Bing Maps
+
+Maps and geocoding
+
+API Key
+
+Open
+
+Docs
+
+64
+
+GeoJS
+
+IP geolocation
+
+None
+
+Open
+
+Docs
+
+News
+
+<a id="news"></a>
+
+#
+
+API
+
+Purpose
+
+Authentication
+
+Get API Key / Access
+
+Documentation
+
+65
+
+NewsAPI
+
+News search
+
+API Key
+
+Open
+
+Docs
+
+66
+
+GNews
+
+News search
+
+API Key
+
+Open
+
+Docs
+
+67
+
+TheNewsAPI
+
+News feeds
+
+API Key
+
+Open
+
+Docs
+
+68
+
+Guardian API
+
+News articles
+
+API Key
+
+Open
+
+Docs
+
+69
+
+New York Times API
+
+News and archives
+
+API Key
+
+Open
+
+Docs
+
+70
+
+Currents API
+
+News search
+
+API Key
+
+Open
+
+Docs
+
+71
+
+NewsData.io
+
+Global news
+
+API Key
+
+Open
+
+Docs
+
+72
+
+Mediastack
+
+News API
+
+API Key
+
+Open
+
+Docs
+
+73
+
+NYTimes API
+
+News and archive data
+
+API Key
+
+Open
+
+Docs
+
+74
+
+GDELT
+
+Global event and news data
+
+None
+
+Open
+
+Docs
+
+75
+
+The Guardian API
+
+News articles
+
+API Key
+
+Open
+
+Docs
+
+Finance
+
+<a id="finance"></a>
+
+#
+
+API
+
+Purpose
+
+Authentication
+
+Get API Key / Access
+
+Documentation
+
+76
+
+Alpha Vantage
+
+Stocks and forex
+
+API Key
+
+Open
+
+Docs
+
+77
+
+Finnhub
+
+Market data
+
+API Key
+
+Open
+
+Docs
+
+78
+
+CoinGecko
+
+Crypto data
+
+API Key
+
+Open
+
+Docs
+
+79
+
+CoinCap
+
+Crypto market data
+
+API Key optional
+
+Open
+
+Docs
+
+80
+
+Frankfurter
+
+Currency exchange
+
+None
+
+Open
+
+Docs
+
+81
+
+FRED
+
+Economic indicators
+
+API Key
+
+Open
+
+Docs
+
+82
+
+Twelve Data
+
+Stocks, forex and crypto
+
+API Key
+
+Open
+
+Docs
+
+83
+
+World Bank
+
+Economic and development data
+
+None
+
+Open
+
+Docs
+
+84
+
+Marketstack
+
+Stocks and market data
+
+API Key
+
+Open
+
+Docs
+
+85
+
+Polygon
+
+Market data
+
+API Key
+
+Open
+
+Docs
+
+86
+
+Tink
+
+Financial account connectivity
+
+API Key
+
+Open
+
+Docs
+
+87
+
+Plaid
+
+Financial data connectivity
+
+Client ID/Secret
+
+Open
+
+Docs
+
+88
+
+Teller
+
+Open banking API
+
+Application
+
+Open
+
+Docs
+
+89
+
+ExchangeRate.host
+
+Currency conversion
+
+None / Key
+
+Open
+
+Docs
+
+Images & Media
+
+<a id="images-media"></a>
+
+#
+
+API
+
+Purpose
+
+Authentication
+
+Get API Key / Access
+
+Documentation
+
+90
+
+Pexels
+
+Stock image search
+
+API Key
+
+Open
+
+Docs
+
+91
+
+Unsplash
+
+Image search
+
+Access Key
+
+Open
+
+Docs
+
+92
+
+Pixabay
+
+Images and videos
+
+API Key
+
+Open
+
+Docs
+
+93
+
+Giphy
+
+GIF search
+
+API Key
+
+Open
+
+Docs
+
+94
+
+Tenor
+
+GIF search
+
+API Key
+
+Open
+
+Docs
+
+95
+
+DiceBear
+
+Avatar generation
+
+None
+
+Open
+
+Docs
+
+96
+
+Lorem Picsum
+
+Placeholder images
+
+None
+
+Open
+
+Docs
+
+Speech & Voice
+
+<a id="speech-voice"></a>
+
+#
+
+API
+
+Purpose
+
+Authentication
+
+Get API Key / Access
+
+Documentation
+
+97
+
+Deepgram
+
+Speech-to-text and audio AI
+
+API Key
+
+Open
+
+Docs
+
+98
+
+AssemblyAI
+
+Speech-to-text
+
+API Key
+
+Open
+
+Docs
+
+99
+
+ElevenLabs
+
+Text-to-speech
+
+API Key
+
+Open
+
+Docs
+
+100
+
+Whisper
+
+Speech recognition
+
+Local/Open-source
+
+Open
+
+Docs
+
+101
+
+Piper TTS
+
+Local text-to-speech
+
+None
+
+Open
+
+Docs
+
+102
+
+Google Speech-to-Text
+
+Speech recognition
+
+API Key
+
+Open
+
+Docs
+
+103
+
+Azure Speech
+
+Speech and voice services
+
+API Key
+
+Open
+
+Docs
+
+104
+
+PlayHT
+
+Text-to-speech
+
+API Key
+
+Open
+
+Docs
+
+105
+
+Cartesia
+
+Low-latency voice AI
+
+API Key
+
+Open
+
+Docs
+
+106
+
+Picovoice
+
+On-device voice AI
+
+Access Key
+
+Open
+
+Docs
+
+Translation & NLP
+
+<a id="translation-nlp"></a>
+
+#
+
+API
+
+Purpose
+
+Authentication
+
+Get API Key / Access
+
+Documentation
+
+107
+
+LibreTranslate
+
+Machine translation
+
+API Key optional
+
+Open
+
+Docs
+
+108
+
+DeepL
+
+Translation
+
+API Key
+
+Open
+
+Docs
+
+109
+
+LanguageTool
+
+Grammar checking
+
+API Key optional
+
+Open
+
+Docs
+
+110
+
+Datamuse
+
+Word relationships
+
+None
+
+Open
+
+Docs
+
+111
+
+Free Dictionary
+
+Definitions
+
+None
+
+Open
+
+Docs
+
+Cybersecurity
+
+<a id="cybersecurity"></a>
+
+#
+
+API
+
+Purpose
+
+Authentication
+
+Get API Key / Access
+
+Documentation
+
+112
+
+VirusTotal
+
+File and URL intelligence
+
+API Key
+
+Open
+
+Docs
+
+113
+
+AbuseIPDB
+
+IP reputation
+
+API Key
+
+Open
+
+Docs
+
+114
+
+Shodan
+
+Internet intelligence
+
+API Key
+
+Open
+
+Docs
+
+115
+
+URLScan
+
+URL analysis
+
+API Key
+
+Open
+
+Docs
+
+116
+
+NVD
+
+Vulnerability database
+
+API Key optional
+
+Open
+
+Docs
+
+117
+
+CISA KEV
+
+Known exploited vulnerabilities
+
+None
+
+Open
+
+Docs
+
+118
+
+URLhaus
+
+Malicious URL intelligence
+
+None
+
+Open
+
+Docs
+
+Healthcare
+
+<a id="healthcare"></a>
+
+#
+
+API
+
+Purpose
+
+Authentication
+
+Get API Key / Access
+
+Documentation
+
+119
+
+OpenFDA
+
+FDA public data
+
+None/API Key
+
+Open
+
+Docs
+
+120
+
+ClinicalTrials.gov
+
+Clinical trials
+
+None
+
+Open
+
+Docs
+
+121
+
+RxNorm
+
+Medication terminology
+
+None
+
+Open
+
+Docs
+
+122
+
+NLM APIs
+
+Biomedical data
+
+None
+
+Open
+
+Docs
+
+Travel
+
+<a id="travel"></a>
+
+#
+
+API
+
+Purpose
+
+Authentication
+
+Get API Key / Access
+
+Documentation
+
+123
+
+Amadeus
+
+Flights and travel
+
+API Key
+
+Open
+
+Docs
+
+124
+
+AviationStack
+
+Flight data
+
+API Key
+
+Open
+
+Docs
+
+125
+
+OpenSky Network
+
+Aircraft tracking
+
+OAuth/None
+
+Open
+
+Docs
+
+126
+
+REST Countries
+
+Country information
+
+None
+
+Open
+
+Docs
+
+127
+
+OpenTripMap
+
+Tourist attractions
+
+API Key
+
+Open
+
+Docs
+
+Sports
+
+<a id="sports"></a>
+
+#
+
+API
+
+Purpose
+
+Authentication
+
+Get API Key / Access
+
+Documentation
+
+128
+
+TheSportsDB
+
+Sports data
+
+API Key optional
+
+Open
+
+Docs
+
+129
+
+API-Football
+
+Football data
+
+API Key
+
+Open
+
+Docs
+
+130
+
+balldontlie
+
+Basketball data
+
+API Key
+
+Open
+
+Docs
+
+131
+
+Jolpica F1
+
+Formula 1 data
+
+None
+
+Open
+
+Docs
+
+Communication
+
+<a id="communication"></a>
+
+#
+
+API
+
+Purpose
+
+Authentication
+
+Get API Key / Access
+
+Documentation
+
+132
+
+Telegram Bot API
+
+Telegram chatbots
+
+Bot Token
+
+Open
+
+Docs
+
+133
+
+Discord
+
+Discord bots
+
+Bot Token
+
+Open
+
+Docs
+
+134
+
+Slack
+
+Workspace bots
+
+OAuth
+
+Open
+
+Docs
+
+135
+
+Twilio
+
+SMS and communication
+
+API Key
+
+Open
+
+Docs
+
+136
+
+WhatsApp Cloud API
+
+WhatsApp messaging
+
+Token
+
+Open
+
+Docs
+
+Email
+
+<a id="email"></a>
+
+#
+
+API
+
+Purpose
+
+Authentication
+
+Get API Key / Access
+
+Documentation
+
+137
+
+Resend
+
+Transactional email
+
+API Key
+
+Open
+
+Docs
+
+138
+
+Brevo
+
+Email and messaging
+
+API Key
+
+Open
+
+Docs
+
+139
+
+SendGrid
+
+Transactional email
+
+API Key
+
+Open
+
+Docs
+
+140
+
+Mailgun
+
+Email API
+
+API Key
+
+Open
+
+Docs
+
+Payments
+
+<a id="payments"></a>
+
+#
+
+API
+
+Purpose
+
+Authentication
+
+Get API Key / Access
+
+Documentation
+
+141
+
+Razorpay
+
+Indian payments
+
+API Key
+
+Open
+
+Docs
+
+142
+
+Stripe
+
+Payments and billing
+
+API Key
+
+Open
+
+Docs
+
+143
+
+Cashfree
+
+Indian payments
+
+API Key
+
+Open
+
+Docs
+
+144
+
+PayPal
+
+Payments
+
+Client ID/Secret
+
+Open
+
+Docs
+
+Database
+
+<a id="database"></a>
+
+#
+
+API
+
+Purpose
+
+Authentication
+
+Get API Key / Access
+
+Documentation
+
+145
+
+Supabase
+
+PostgreSQL, auth and storage
+
+API Key
+
+Open
+
+Docs
+
+146
+
+Firebase
+
+Database, auth and storage
+
+Config/API
+
+Open
+
+Docs
+
+147
+
+Appwrite
+
+Backend services
+
+API Key
+
+Open
+
+Docs
+
+148
+
+Convex
+
+Backend database
+
+Project credentials
+
+Open
+
+Docs
+
+Developer
+
+<a id="developer"></a>
+
+#
+
+API
+
+Purpose
+
+Authentication
+
+Get API Key / Access
+
+Documentation
+
+149
+
+GitHub
+
+Repositories and developer data
+
+Token
+
+Open
+
+Docs
+
+150
+
+GitLab
+
+Repositories and CI/CD
+
+Token
+
+Open
+
+Docs
+
+151
+
+npm Registry
+
+Package metadata
+
+None
+
+Open
+
+Docs
+
+152
+
+PyPI
+
+Python package metadata
+
+None
+
+Open
+
+Docs
+
+153
+
+JSONPlaceholder
+
+Fake REST data
+
+None
+
+Open
+
+Docs
+
+154
+
+DummyJSON
+
+Fake REST data
+
+None
+
+Open
+
+Docs
+
+155
+
+httpbin
+
+HTTP testing
+
+None
+
+Open
+
+Docs
+
+156
+
+Random User
+
+Random user profiles
+
+None
+
+Open
+
+Docs
+
+Science & Space
+
+<a id="science-space"></a>
+
+#
+
+API
+
+Purpose
+
+Authentication
+
+Get API Key / Access
+
+Documentation
+
+157
+
+NASA APIs
+
+Space and Earth data
+
+API Key
+
+Open
+
+Docs
+
+158
+
+SpaceX API
+
+Launch and rocket data
+
+None
+
+Open
+
+Docs
+
+159
+
+USGS
+
+Earthquake and Earth data
+
+None
+
+Open
+
+Docs
+
+160
+
+GBIF
+
+Biodiversity data
+
+None
+
+Open
+
+Docs
+
+161
+
+NASA
+
+Space and Earth data
+
+API Key
+
+Open
+
+Docs
+
+162
+
+SpaceX
+
+Launch and rocket data
+
+None
+
+Open
+
+Docs
+
+163
+
+USGS Earthquake
+
+Earthquake feeds
+
+None
+
+Open
+
+Docs
+
+164
+
+OpenAQ
+
+Air quality measurements
+
+None
+
+Open
+
+Docs
+
+165
+
+Wikidata
+
+Structured knowledge graph
+
+None
+
+Open
+
+Docs
+
+Entertainment
+
+<a id="entertainment"></a>
+
+#
+
+API
+
+Purpose
+
+Authentication
+
+Get API Key / Access
+
+Documentation
+
+166
+
+TMDB
+
+Movies and TV
+
+API Key
+
+Open
+
+Docs
+
+167
+
+OMDb
+
+Movie information
+
+API Key
+
+Open
+
+Docs
+
+168
+
+TVMaze
+
+TV show data
+
+None
+
+Open
+
+Docs
+
+169
+
+Spotify
+
+Music data
+
+OAuth
+
+Open
+
+Docs
+
+170
+
+Jikan
+
+MyAnimeList API
+
+None
+
+Open
+
+Docs
+
+171
+
+YouTube Data API
+
+Video metadata and search
+
+API Key
+
+Open
+
+Docs
+
+Utility
+
+<a id="utility"></a>
+
+#
+
+API
+
+Purpose
+
+Authentication
+
+Get API Key / Access
+
+Documentation
+
+172
+
+IPify
+
+Public IP address
+
+None
+
+Open
+
+Docs
+
+173
+
+QR Server
+
+QR code generation
+
+None
+
+Open
+
+Docs
+
+174
+
+Advice Slip
+
+Advice text
+
+None
+
+Open
+
+Docs
+
+175
+
+Numbers API
+
+Number facts
+
+None
+
+Open
+
+Docs
+
+176
+
+Agify
+
+Age prediction
+
+None
+
+Open
+
+Docs
+
+177
+
+Genderize
+
+Gender prediction
+
+None
+
+Open
+
+Docs
+
+178
+
+Nationalize
+
+Nationality prediction
+
+None
+
+Open
+
+Docs
+
+179
+
+Random User
+
+Random profile data
+
+None
+
+Open
+
+Docs
+
+180
+
+DiceBear
+
+Avatar generation
+
+None
+
+Open
+
+Docs
+
+181
+
+JSONPlaceholder
+
+Fake REST API
+
+None
+
+Open
+
+Docs
+
+182
+
+DummyJSON
+
+Mock REST data
+
+None
+
+Open
+
+Docs
+
+183
+
+HTTPBin
+
+HTTP request testing
+
+None
+
+Open
+
+Docs
+
+184
+
+Public APIs Directory API
+
+Searchable public API catalog
+
+None
+
+Open
+
+Docs
+
+RAG & Vector DB
+
+<a id="rag-vector-db"></a>
+
+#
+
+API
+
+Purpose
+
+Authentication
+
+Get API Key / Access
+
+Documentation
+
+185
+
+Pinecone
+
+Vector database for RAG
+
+API Key
+
+Open
+
+Docs
+
+186
+
+Qdrant Cloud
+
+Vector search database
+
+API Key
+
+Open
+
+Docs
+
+187
+
+Weaviate Cloud
+
+Vector database
+
+API Key
+
+Open
+
+Docs
+
+188
+
+Milvus
+
+Vector database
+
+None / Token
+
+Open
+
+Docs
+
+189
+
+Chroma
+
+Open-source vector database
+
+None
+
+Open
+
+Docs
+
+190
+
+LanceDB
+
+Embedded vector database
+
+None
+
+Open
+
+Docs
+
+191
+
+Supabase Vector
+
+Postgres vector search
+
+Project Key
+
+Open
+
+Docs
+
+192
+
+Neo4j Aura
+
+Graph database for knowledge graphs
+
+Login
+
+Open
+
+Docs
+
+193
+
+Unstructured
+
+Document processing for RAG
+
+API Key
+
+Open
+
+Docs
+
+194
+
+Firecrawl
+
+Web scraping for AI agents
+
+API Key
+
+Open
+
+Docs
+
+OCR / Documents
+
+<a id="ocr-documents"></a>
+
+#
+
+API
+
+Purpose
+
+Authentication
+
+Get API Key / Access
+
+Documentation
+
+195
+
+OCR.Space
+
+OCR API
+
+API Key
+
+Open
+
+Docs
+
+196
+
+Nanonets
+
+OCR and document processing
+
+API Key
+
+Open
+
+Docs
+
+197
+
+Mindee
+
+Document parsing
+
+API Key
+
+Open
+
+Docs
+
+198
+
+Cloudmersive
+
+Document and OCR APIs
+
+API Key
+
+Open
+
+Docs
+
+199
+
+PDF.co
+
+PDF processing
+
+API Key
+
+Open
+
+Docs
+
+200
+
+ConvertAPI
+
+Document conversion
+
+API Key
+
+Open
+
+Docs
+
+Vision
+
+<a id="vision"></a>
+
+#
+
+API
+
+Purpose
+
+Authentication
+
+Get API Key / Access
+
+Documentation
+
+201
+
+Roboflow
+
+Computer vision inference and datasets
+
+API Key
+
+Open
+
+Docs
+
+202
+
+Clarifai
+
+Vision and AI inference
+
+API Key
+
+Open
+
+Docs
+
+203
+
+Hugging Face Inference
+
+Computer vision and multimodal models
+
+Token
+
+Open
+
+Docs
+
+204
+
+Google Vision
+
+Image understanding
+
+API Key
+
+Open
+
+Docs
+
+205
+
+Azure Computer Vision
+
+Vision AI
+
+API Key
+
+Open
+
+Docs
+
+206
+
+AWS Rekognition
+
+Image and video analysis
+
+Access Key
+
+Open
+
+Docs
+
+Weather & Environment
+
+<a id="weather-environment"></a>
+
+#
+
+API
+
+Purpose
+
+Authentication
+
+Get API Key / Access
+
+Documentation
+
+207
 
 Meteostat
 
@@ -3743,7 +3176,7 @@ Open
 
 Docs
 
-2
+208
 
 Visual Crossing
 
@@ -3755,7 +3188,7 @@ Open
 
 Docs
 
-3
+209
 
 Tomorrow.io
 
@@ -3767,7 +3200,7 @@ Open
 
 Docs
 
-4
+210
 
 Weatherstack
 
@@ -3779,7 +3212,7 @@ Open
 
 Docs
 
-5
+211
 
 Climatiq
 
@@ -3791,51 +3224,499 @@ Open
 
 Docs
 
-🔐 Authentication legend
+E-commerce
 
-Auth
+<a id="e-commerce"></a>
 
-Meaning
+#
+
+API
+
+Purpose
+
+Authentication
+
+Get API Key / Access
+
+Documentation
+
+212
+
+Fake Store API
+
+Fake products and carts
 
 None
 
-Public endpoint or no key listed
+Open
 
-API Key
+Docs
 
-Create your own API key with the provider
+213
 
-Token
+DummyJSON Products
 
-Create an access token
+Mock products data
+
+None
+
+Open
+
+Docs
+
+214
+
+Shopify Admin API
+
+Store data and operations
 
 OAuth
 
-Use the provider OAuth flow
+Open
 
-Client ID/Secret
+Docs
 
-Create app credentials
+215
+
+WooCommerce REST API
+
+Products and orders
+
+Consumer Key/Secret
+
+Open
+
+Docs
+
+216
+
+Printful API
+
+Print-on-demand catalog
+
+API Key
+
+Open
+
+Docs
+
+217
+
+eBay APIs
+
+Marketplace data
+
+OAuth
+
+Open
+
+Docs
+
+Programming
+
+<a id="programming"></a>
+
+#
+
+API
+
+Purpose
+
+Authentication
+
+Get API Key / Access
+
+Documentation
+
+218
+
+Judge0
+
+Online code execution
+
+API Key
+
+Open
+
+Docs
+
+219
+
+Piston
+
+Code execution API
+
+None
+
+Open
+
+Docs
+
+220
+
+GitHub REST API
+
+Repositories and code
+
+Token optional
+
+Open
+
+Docs
+
+221
+
+GitHub GraphQL API
+
+Graph data for GitHub
+
+Token
+
+Open
+
+Docs
+
+222
+
+GitLab API
+
+Repositories and CI/CD
+
+Token
+
+Open
+
+Docs
+
+223
+
+Codeforces API
+
+Contest and problem data
+
+API Key optional
+
+Open
+
+Docs
+
+224
+
+HackerRank
+
+Coding platform integrations
+
+API / partner
+
+Open
+
+Docs
+
+Email & Messaging
+
+<a id="email-messaging"></a>
+
+#
+
+API
+
+Purpose
+
+Authentication
+
+Get API Key / Access
+
+Documentation
+
+225
+
+EmailJS
+
+Client-side email sending
+
+Public Key
+
+Open
+
+Docs
+
+226
+
+Mailjet
+
+Email API
+
+API Key
+
+Open
+
+Docs
+
+227
+
+Postmark
+
+Transactional email
+
+Server Token
+
+Open
+
+Docs
+
+228
+
+EmailOctopus
+
+Email marketing API
+
+API Key
+
+Open
+
+Docs
+
+229
+
+OneSignal
+
+Push notifications
+
+App ID / Key
+
+Open
+
+Docs
+
+Social & Bots
+
+<a id="social-bots"></a>
+
+#
+
+API
+
+Purpose
+
+Authentication
+
+Get API Key / Access
+
+Documentation
+
+230
+
+Telegram Bot API
+
+Telegram chatbot interface
+
+Bot Token
+
+Open
+
+Docs
+
+231
+
+Discord Developer API
+
+Bots and applications
+
+Bot Token
+
+Open
+
+Docs
+
+232
+
+Slack Platform
+
+Workspace bots
+
+OAuth
+
+Open
+
+Docs
+
+233
+
+Twitch API
+
+Streaming and creator data
+
+OAuth / Client ID
+
+Open
+
+Docs
+
+234
+
+Bluesky API
+
+Social graph and posts
+
+Session
+
+Open
+
+Docs
+
+235
+
+Mastodon API
+
+Social platform API
+
+OAuth
+
+Open
+
+Docs
+
+Authentication
+
+<a id="authentication"></a>
+
+#
+
+API
+
+Purpose
+
+Authentication
+
+Get API Key / Access
+
+Documentation
+
+236
+
+Clerk
+
+Authentication and user management
+
+API Key
+
+Open
+
+Docs
+
+237
+
+Auth0
+
+Authentication and authorization
+
+Domain / Client ID
+
+Open
+
+Docs
+
+238
+
+Stytch
+
+Authentication APIs
+
+API Keys
+
+Open
+
+Docs
+
+239
+
+Kinde
+
+Authentication and identity
+
+OAuth
+
+Open
+
+Docs
+
+240
+
+Supabase Auth
+
+Authentication and sessions
 
 Project Key
 
-Key tied to a project or backend
+Open
 
-Free-tier limits, credit amounts, authentication rules, geographic availability, and pricing change over time. Verify the provider page before deploying.
+Docs
 
-🚀 Quick Start
+🚀 Recommended starting stack
 
-git clone https://github.com/YOUR_USERNAME/chatbot-api-hub.git
-cd chatbot-api-hub
+Layer
 
-Create .env:
+APIs
+
+LLM
+
+Groq, Hugging Face, OpenRouter, Mistral AI, Cohere
+
+Search
+
+Tavily, Brave Search, Serper, Exa, Jina
+
+RAG
+
+Pinecone, Qdrant Cloud, Weaviate Cloud, Chroma, Supabase Vector
+
+Web extraction
+
+Firecrawl, Jina Reader, Unstructured
+
+Voice
+
+Deepgram, AssemblyAI, ElevenLabs, Cartesia
+
+Vision
+
+Roboflow, Clarifai, Hugging Face Inference
+
+Weather
+
+Open-Meteo, OpenWeather, WeatherAPI
+
+Maps
+
+OpenStreetMap, Mapbox, OpenRouteService, Google Maps
+
+News
+
+NewsAPI, GNews, NewsData.io, Guardian API
+
+Database
+
+Supabase, Firebase, Appwrite, Convex
+
+Messaging
+
+Telegram, Discord, Slack, WhatsApp Cloud API
+
+Email
+
+Resend, Brevo, SendGrid, Mailgun
+
+🛡️ Credential safety
+
+Never commit a real API key to GitHub.
+
+Use environment variables:
 
 GROQ_API_KEY=your_key_here
 TAVILY_API_KEY=your_key_here
-SUPABASE_URL=your_project_url
 SUPABASE_KEY=your_key_here
 
-Add .env to .gitignore:
+Use .gitignore:
 
 .env
 .env.*
@@ -3843,7 +3724,7 @@ Add .env to .gitignore:
 secrets/
 credentials/
 
-🧪 Minimal Python pattern
+🧪 Minimal chatbot pattern
 
 import os
 from groq import Groq
@@ -3859,10 +3740,12 @@ response = client.chat.completions.create(
 
 print(response.choices[0].message.content)
 
-🛠️ Recommended repository structure
+🗂️ Suggested repository structure
 
 chatbot-api-hub/
 ├── README.md
+├── apis.json
+├── apis.csv
 ├── assets/
 │   └── chatbot-api-hub.gif
 ├── APIs/
@@ -3880,144 +3763,52 @@ chatbot-api-hub/
 │   ├── payments/
 │   └── developer/
 ├── examples/
-│   ├── chatbot/
-│   ├── rag/
-│   ├── agents/
-│   ├── voice/
-│   └── automation/
-├── templates/
-│   ├── python/
-│   ├── javascript/
-│   └── fastapi/
-├── CONTRIBUTING.md
-└── LICENSE
+└── templates/
 
-🤖 Chatbot use cases
+🌐 Reference
 
-Build
-
-Useful API groups
-
-Research assistant
-
-Search + RAG + LLM
-
-Study assistant
-
-Research + books + LLM
-
-News bot
-
-News + search + LLM
-
-Travel assistant
-
-Maps + flights + weather
-
-Voice assistant
-
-Speech + LLM + TTS
-
-Finance assistant
-
-Market data + currency + LLM
-
-Cybersecurity assistant
-
-Threat intel + search + LLM
-
-Customer support bot
-
-LLM + RAG + email
-
-Shopping assistant
-
-Products + search + payments
-
-Telegram / Discord bot
-
-LLM + communication
-
-🌐 Inspired by Public APIs
-
-The project uses the same broad discovery philosophy as the Public APIs repository. That project organizes free APIs by category and exposes fields such as authentication, HTTPS, and CORS. citeturn365816search9turn365816search2
-
-Official reference:
-
+This directory follows the public API catalog approach used by:
 https://github.com/public-apis/public-apis
-
-Public APIs also exposes a separate catalog API with endpoints such as /entries, /random, /categories, and /health.
 
 🤝 Contribute
 
-Add an API only when you have enough public information to verify its official homepage and documentation.
-
-Use this format:
+Add public API information using this format:
 
 API:
 Category:
 Purpose:
 Authentication:
 Free / free-tier:
-Key or access URL:
-Documentation:
+Access URL:
+Documentation URL:
 Chatbot use case:
 
-Do not submit private API keys.
+Never submit private credentials.
 
-🗺️ Roadmap
+⭐ Roadmap
 
-[x] Visual GitHub README
-[x] Animated banner
-[x] Large API directory
-[x] Direct access links
-[x] Authentication labels
-[x] Documentation links
-[x] Chatbot architecture
-[ ] 250+ curated chatbot APIs
-[ ] 500+ curated chatbot APIs
-[ ] Searchable static website
-[ ] API health checker
-[ ] Free-tier change tracker
-[ ] API comparison page
-[ ] AI API recommender
-[ ] MCP server directory
-[ ] Auto-generated SDK examples
+Complete table catalog
 
-⭐ Project idea
+Direct access links
 
-Turn this repository into a developer tool:
+Documentation links
 
-"Describe what your chatbot needs"
-             ↓
-      API Recommender
-             ↓
-  ┌──────────┼──────────┐
-  ↓          ↓          ↓
- Search     LLM       Database
-  ↓          ↓          ↓
-  Suggested APIs + Auth + Docs
-             ↓
-       Copy integration
+Authentication labels
 
-⚠️ Security
+Chatbot-focused categories
 
-Never publish real credentials.
+Animated GitHub visual
 
-Bad:
+300+ curated entries
 
-API_KEY = "sk-real-secret"
+500+ curated entries
 
-Good:
+API health checker
 
-import os
+Free-tier change tracker
 
-API_KEY = os.environ["API_KEY"]
+API comparison dashboard
 
-📜 License and provider terms
+AI API recommender
 
-This repository is an API discovery directory. Each listed API belongs to its respective provider. Follow each provider's license, rate limits, authentication rules, attribution requirements, and terms.
-
-<p align="center">
-  <strong>Find an API → Get access → Connect it to your chatbot → Build.</strong>
-</p>
+<p align="center"><strong>Find an API → Create access → Read docs → Connect it to your chatbot.</strong></p>
